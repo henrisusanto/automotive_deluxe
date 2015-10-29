@@ -1,0 +1,240 @@
+#theme-options-wrap {
+    width: 720px;
+    padding: 0 3em 3em 3em;
+    background: white;
+    font-size: 11px!important;
+    border:none;
+}
+
+.martop {
+    margin-top: 10px;
+}
+
+#theme-options-wrap {
+    font-size: 14px!important;
+}
+
+#theme-options-wrap #icon-tools {
+    position: relative;
+    top: -10px;
+}
+
+#theme-options-wrap input, #theme-options-wrap textarea {
+    font-size: 12px;
+}
+
+.ed_api, .phone-setup {
+    height: 30px;
+    width: 218px;
+    background: #fafafa;
+    border: 1px solid #bababa;
+    padding: 0px 10px 0 10px;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.4);
+    -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,.4);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.24);
+    font-family: Arial,serif;
+    font-size: 13px!important;
+}
+
+#theme-options-wrap h2 {
+    font: italic normal normal 24px/29px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    margin: 0;
+    padding: 14px 15px 3px 0;
+    line-height: 35px;
+    text-shadow: rgba(255,255,255,1) 0 1px 0;
+}
+
+#theme-options-wrap li {
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+#theme-options-wrap li.li {
+    background: #f4f4f4;
+    padding: 4px;
+}
+
+#theme-options-wrap li.lialt {
+    background: #fafafa;
+    padding: 4px;
+}
+
+#theme-options-wrap td {
+    font-size: 11px!important;
+}
+
+#theme-options-wrap th {
+    font-size: 13px!important;
+    padding-top: 15px;
+    font-family: Arial,serif;
+}
+
+.optionmain {
+    background: url(../images/common/arrow-options.png) left no-repeat;
+    padding-left: 13px;
+    font-size: 12px!important;
+}
+
+.optionsearch {
+    background: url(../images/common/search.gif) left no-repeat;
+    padding-left: 18px;
+    margin: 0 4px 0 10px;
+    font-size: 12px!important;
+}
+
+.legend h3 {
+    color: #000!important;
+    font-family: Times, arial, serif!important;
+}
+
+.legend {
+    color: #000!important;
+    margin: 22px 14px 13px 0px;
+    padding: 8px 0 8px 2px;
+    border-bottom: 1px solid  #cdcdcd!important;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    width: 100%;
+}
+
+.api-legend {
+    padding: 5px 0 0 0;
+    width: 134px;
+    float: right;
+    font-weight: bold;
+}
+
+.form-wrap.vin {
+    margin: 0px 0 10px 0;
+    height: 40px;
+}
+
+.vin-loader {
+    width: 40px;
+    padding: 6px 40px 0px 0;
+    float: left;
+}
+
+.vin-form {
+    float: left;
+    width: 380px;
+    padding-top: 10px;
+    display: block;
+}
+
+#API_message {
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+
+.rw-label {
+    width: 20%;
+}
+
+.rw-select {
+    height: auto !important;
+}
+
+.user-images li {
+    margin: 12px;
+    float: left;
+    width: 132px;
+    height: 100px;
+    text-align: center;
+    cursor: move;
+    position: relative;
+}
+
+.rw-images li {
+    margin: 12px;
+    float: left;
+    width: 132px;
+    height: 100px;
+    text-align: center;
+    cursor: move;
+    position: relative;
+}
+
+.rw-images img:hover {
+    opacity: 0.8;
+}
+
+.user-images img {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: white;
+}
+
+.rw-images img {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: white;
+}
+
+.rw-images a {
+    position: absolute;
+    bottom: -15px;
+    left: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.rw-images a.delete {
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    width: 122px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.rw-images a.delete:hover {
+    padding: 5px;
+    text-decoration: underline;
+    width: 122px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    ;
+}
+
+.rw-upload-button {
+    float: left;
+    clear: both;
+    margin-top: -24px;
+}
+
+.rw-field .mceIframeContainer {
+    background: #fff;
+}
+
+.messagebox {
+    background-color: #F5F5F5;
+    padding: 5px;
+    margin: 10px 0px;
+    border: 1px solid #DBDBDB;
+}
+
+.errorbox {
+    color: #000;
+    background-color: #ffeded;
+    padding: 5px;
+    margin: 10px 0px;
+    border: 1px solid #f27c7c;
+}
+
+.confirmbox {
+    background-color: #F2FFDB;
+    color: #151515;
+    border: 1px solid #9C6;
+    margin: 10px 0px;
+    padding: 5px;
+}

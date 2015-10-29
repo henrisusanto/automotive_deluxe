@@ -1,0 +1,2640 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Automotive\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Gorilla Themes <support@gorillathemes.com>\n"
+"Language-Team: Gorilla Themes <support@gorillathemes.com>\n"
+"MIME-Version: 1.0\n"
+"Language: es_ES\n"
+"X-Generator: Poedit 1.6.7\n"
+
+#. Text in echo
+#: automotive/cdform.php:359
+msgid " (select make first)"
+msgstr "(selecciona primero)"
+
+#. Text in function
+#: automotive/archive.php:11
+msgid " Archive"
+msgstr "Archivo"
+
+#. Text in function
+#: automotive/category.php:11
+msgid " Category"
+msgstr "Categoria"
+
+#. Text in echo
+#: automotive/functions.php:535
+msgid " Hide in Search Module."
+msgstr "Esconder en modulo de busqueda"
+
+#. Text in function
+#: automotive/functions/styles.php:16
+msgid " Options"
+msgstr "Opciones"
+
+#. Text in function
+#: automotive/includes/form.php:149
+msgid " Stock# "
+msgstr "Numero# "
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:72
+msgid " and insert the alphanumeric key in the input field."
+msgstr "e introduzca la clave alfanumérica en el campo de entrada."
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:68
+msgid " has successfully imported "
+msgstr "ha importado correctamente"
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:68
+msgid " listings as "
+msgstr "listados como"
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:69
+msgid ""
+" listings that were skipped because they already exist from a previous "
+"import."
+msgstr ""
+"anuncios que se han omitido porque ya existen de una importación anterior."
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:68
+msgid " status under Inventory."
+msgstr "estado bajo Inventario."
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:72
+msgid " to obtain the API Key"
+msgstr "para obtener la clave API"
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:
+msgid " to see your imported listings."
+msgstr "para ver sus listados importados."
+
+#. Text in function
+#: automotive/comments.php:17
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#. Text in function
+#: automotive/functions.php:574
+msgid "%s Theme Options"
+msgstr "%s Opciones de plantilla"
+
+#. Text in echo
+#: automotive/includes/arrivals.php:36
+msgid "0"
+msgstr "0"
+
+#. Text in echo
+#: automotive/functions/file/includes/upload.php:3
+msgid "1. Select the type of file to import."
+msgstr "1. Seleccione archivo a importar."
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "1990"
+msgstr "1990"
+
+#. Text in echo
+#: automotive/functions/file/includes/upload.php:15
+msgid "2. Select your file and click Upload File"
+msgstr "2. Seleccione archivo y suba el archivo a su sitio."
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "2015"
+msgstr "2015"
+
+#. Text in echo
+#: automotive/functions/file/includes/upload.php:30
+msgid "3. Click continue to map your fields."
+msgstr "3. Haga click en \"Continue\" para establecer sis campos."
+
+#. Text in echo
+#: automotive/404.php:7
+msgid "404 Page Not Found!"
+msgstr "404 Página no encontrada!"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "4WD/AWD"
+msgstr "4WD/AWD"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:213
+msgid "<strong>Enter Calculator title:</strong> "
+msgstr "<strong> Introduzca el título Calculadora: </ strong>"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:801
+msgid ""
+"<strong>Enter Full Specifications title:</strong> <br/>(leave empty to hide) "
+msgstr ""
+"<strong> Introduzca Título para Especificaciones: </ strong> <br/> (dejar en "
+"blanco para ocultar)"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:821
+msgid ""
+"<strong>Enter title for fourth module:</strong> <br/>(leave empty to hide)"
+msgstr ""
+"<strong> Introduzca el título para el cuarto módulo: </ strong> <br/> (dejar "
+"en blanco para ocultar)"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:807
+msgid ""
+"<strong>Enter title for second module:</strong> <br/>(leave empty to hide)"
+msgstr ""
+"<strong> Introduzca el título para el segundo módulo: </ strong> <br/> "
+"(dejar en blanco para ocultar)"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:65
+msgid "API Key Updated!"
+msgstr "API Key Actualizada!"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:1451
+msgid "Add - Delete Images"
+msgstr "Añadir - Eliminar Imágenes"
+
+#. Text in function
+#: automotive/functions/custom-taxonomies.php:1
+msgid "Add New "
+msgstr "Crear Nuevo"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+#: automotive/functions/gtcd-post-type.php:1
+msgid "Add New Vehicle"
+msgstr "Crear Nuevo Vehículo"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:1387
+msgid "Address: "
+msgstr "Dirección:"
+
+#. Text in function
+#: automotive/functions/custom-taxonomies.php:1
+msgid "All "
+msgstr "Todos:"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Anti Theft Alarm System"
+msgstr "Sistema de Lucha contra el robo de alarma"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Antilock Braking System"
+msgstr "Sistema de frenos antibloqueo"
+
+#. Text in echo
+#: automotive/functions/search-code.php:154
+msgid "Any price"
+msgstr "Cualquier precio"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Appearance"
+msgstr "Appearance"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Audio Control on Steering Wheel"
+msgstr "Control de audio en el volante"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Auto Dimming Rearview Mirror"
+msgstr "Control de audio en el volante"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Automatic"
+msgstr "Automático"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:1317
+msgid "Automatically add paragraphs"
+msgstr "Añadir automáticamente los párrafos"
+
+#. Text in echo
+#: automotive/functions/styles.php:32
+msgid "Automotive Color Selection"
+msgstr "Automotive Selección de color"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Automotive Contact Form in The Sidebar"
+msgstr "Automotive Formulario de contacto en la barra lateral"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:112
+msgid "Automotive Meta Fields"
+msgstr "Campos de Automotive"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:181
+msgid "Automotive Photo Gallery"
+msgstr "Galería de fotos"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:83
+msgid "Automotive Post Title"
+msgstr "Título"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:98
+msgid "Automotive Search Options Setup"
+msgstr "Opciones de búsqueda Configuración"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:217
+msgid "Automotive Similar Cars by Features"
+msgstr "Vehículos similares por Características"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:145
+msgid "Automotive Taxonomy"
+msgstr "Taxonomia"
+
+#. Text in function
+#: automotive/functions/file/functions.php:1
+msgid "Automotive XML & CSV File Importer"
+msgstr "Automotive XML y CSV Importador de archivos"
+
+#. Text in echo
+#: automotive/functions/file/index.php:5
+msgid "Automotive XML-CSV Batch Vehicle Import"
+msgstr "Automotive Importación de Vehículos por Lote XML-CSV"
+
+#. Text in echo
+#: automotive/footer.php:18 automotive/footer-form.php:3
+msgid "Automotive by"
+msgstr "Automotive por"
+
+#. Text in echo
+#: automotive/footer.php:9
+msgid "Automotive by "
+msgstr "Automotive por"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:217
+msgid "Automotive: Similar Cars"
+msgstr "Automotive: Vehiculos Similares"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Automotive: Welcome Widget"
+msgstr "Widget Bienvenida: Automotive"
+
+#. Text in echo
+#: automotive/taxonomy.php:54 automotive/functions/search-code.php:346
+msgid "BACK TO TOP"
+msgstr "VOLVER AL PRINCIPIO"
+
+#. Text in echo
+#: automotive/functions/styles.php:38
+msgid "Black"
+msgstr "Negro"
+
+#. Text in echo
+#: automotive/functions/styles.php:41
+msgid "Blue"
+msgstr "Azul"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Bore"
+msgstr "Taladro"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Bore:"
+msgstr "Taladro:"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Braking Assist"
+msgstr "Asistencia de freno"
+
+#. Text in echo
+#: automotive/functions/file/includes/upload.php:8
+msgid "CSV"
+msgstr "CSV"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Camshaft"
+msgstr "Arbol de levas"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Camshaft:"
+msgstr "Árbol de levas:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Carfax Parner ID"
+msgstr "Carfax ID"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Carfax Partner ID:"
+msgstr "Carfax ID:"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Cargo Area Power Outlet"
+msgstr "Toma corrientes de carga"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:791
+msgid "Click here to setup your VIN Decoder"
+msgstr "Haga clic aquí para configurar su Decodificador VIN"
+
+#. Text in echo
+#: automotive/cdform.php:721
+msgid ""
+"Click the \"More photos\" link to add all your images, all photos will be "
+"automatically resized to fit the property listing layout. We recommend that "
+"you upload photos in full resolution for better results."
+msgstr ""
+"Haga clic en el \"Más fotos \" vínculo para añadir todas sus imágenes, todas "
+"las fotos se redimensionan automáticamente para adaptarse al diseño más "
+"propiedades. Le recomendamos que subas fotos en alta resolución para obtener "
+"mejores resultados."
+
+#. Text in function
+#: automotive/functions.php:1323 automotive/includes/form.php:1
+#: automotive/contact-us.php:187
+msgid "Comments"
+msgstr "Comentarios"
+
+#. Text in echo
+#: automotive/comments.php:31
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Compression Ratio"
+msgstr "Relación de compresión"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Compression Ratio:"
+msgstr "Compression Ratio:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Condition"
+msgstr "Condición"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Condition:"
+msgstr "Condición"
+
+#. Text in function
+#: automotive/contact-us.php:22
+msgid "Contact Form Submission from "
+msgstr "Contacto de "
+
+#. Text in echo
+#: automotive/footer.php:35
+msgid "Contact Us"
+msgstr "Contáctenos"
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:1143
+msgid "Contact:"
+msgstr "Póngase en contacto con:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Convertibles"
+msgstr "Convertibles"
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:1142
+msgid "Copy & Paste the generated code into your Craigslist ad."
+msgstr "Copiar y pegar el código generado en su anuncio de Craigslist."
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:1141
+msgid "Craigslist Code:"
+msgstr "Código Craigslist:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Crossovers"
+msgstr "Crossovers"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Cruise Control"
+msgstr "Control de Crucero"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Cruise Control on Steering Wheel"
+msgstr "Control de velocidad en el volante"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Curb Weight"
+msgstr "Peso del encintado"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Curb Weight:"
+msgstr "Peso del encintado:"
+
+#. Text in function
+#: automotive/functions/menu-and-settings-page.php:1
+#: automotive/functions/menu-and-settings-page.php:29
+msgid "Currency & Metrics"
+msgstr "Moneda y métricas"
+
+#. Text in function
+#: automotive/functions/menu-and-settings-page.php:1
+msgid "Currency and Metrics"
+msgstr "Moneda y métricas"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Dashboard"
+msgstr "Tablero"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:1143
+msgid "Delete"
+msgstr "Borrar"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/meta-boxes-code.php:1143
+msgid "Description"
+msgstr "Descripción"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Description:"
+msgstr "Descripción:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Diesel Engines"
+msgstr "Motores Diesel"
+
+#. Text in echo
+#: automotive/financing.php:187
+msgid "Down Payment:  "
+msgstr "Depósito:"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/user-post-type.php:97
+msgid "Drive"
+msgstr "Conducir"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Drive:"
+msgstr "Conducir:"
+
+#. Text in function
+#: automotive/includes/form.php:1
+msgid "E-mail"
+msgstr "E-mail"
+
+#. Text in echo
+#: automotive/functions.php:1304
+msgid "E-mail Notification of New Listings Submitted for Approval"
+msgstr ""
+"Notificación por correo electrónico de nuevos listados presentados para su "
+"aprobación"
+
+#. Text in function
+#: automotive/cdform.php:6
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "EPA City MPG."
+msgstr "EPA MPG en ciudad."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "EPA Highway MPG."
+msgstr "EPA Carretera MPG."
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "EPA Mileage"
+msgstr "EPA Kilometraje"
+
+#. Text in function
+#: automotive/functions/custom-taxonomies.php:1
+msgid "Edit "
+msgstr "Editar"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+#: automotive/functions/gtcd-post-type.php:1
+msgid "Edit Vehicle"
+msgstr "Editar Vehiculo"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:57
+msgid "Edmunds API Setup"
+msgstr "Configuración API Edmunds"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:72
+msgid "Edmunds Developer Portal"
+msgstr "vzhcvadadkh"
+
+#. Text in echo
+#: automotive/cdform.php:811 automotive/contact-us.php:166
+msgid "Email"
+msgstr "Email"
+
+#. Text in echo
+#: automotive/functions.php:224
+msgid "End Date:"
+msgstr "Finaliza"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Engine Size"
+msgstr "Tamaño del motor"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Engine Size:"
+msgstr "Tamaño del motor:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Engine Tye:"
+msgstr "Tipo de motor"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Engine Type"
+msgstr "Tipo de motor"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Anti Theft Alarm System"
+msgstr "Introduzca Sistema Anti Robo de alarma"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Antilock Braking System"
+msgstr "Enter Anti Theft Alarm System"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Audio Control on Steering Wheel"
+msgstr "Enter Audio Control on Steering Wheel"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Auto Dimming Rearview Mirror"
+msgstr "Introduzca atenuación automática Espejo retrovisor"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Braking Assist"
+msgstr "Ingrese Braking Assist"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter Carfax partner ID to offer free reports with your vehicle."
+msgstr ""
+"Introduzca Carfax ID partner para ofrecer informes gratuitos con su vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Cargo Area Power Outlet"
+msgstr "Introduzca el Area de Carga de tomacorrientes"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Cruise Control"
+msgstr "Introduzca Cruise Control"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Cruise Control on Steering Wheel"
+msgstr "Introduzca Cruise Control en el volante"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter EPA City MPG."
+msgstr "Introduzca EPA MPG en ciudad."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter EPA Highway MPG."
+msgstr "Introduzca EPA MPG en carretera."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter First Row Power Outlet"
+msgstr "Introduzca toma corrientes de primera fila de"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter First Row Vanity Mirrors"
+msgstr "Ingrese primera fila espejos de vanidad"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Folding Second Row Seats"
+msgstr "Introduzca asientos plegables segunda fila"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Front Air Conditioning"
+msgstr "Introduzca delantera Aire Acondicionado"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Front Brake Type"
+msgstr "Introduzca delantera Aire Acondicionado"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Front Suspension Type"
+msgstr "Introduzca Suspensión Delantera"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Heated Driver Side Mirror"
+msgstr "Introduzca Espejo climatizado del lado del conductor"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Heated Passenger Side Mirror"
+msgstr "Introduzca Espejo climatizado lado pasajero "
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Independent Suspension"
+msgstr "Introduzca Suspensión Independiente"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Maximum Cargo Capacity Suspension"
+msgstr "Introduzca Suspension Capacidad máxima de carga"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Passenger Airbags"
+msgstr "Introduzca Airbags pasajeros"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Power Door Locks"
+msgstr "Introduzca Seguros de puerta"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Rear Brake Diameter"
+msgstr "Introduzca Diámetro del freno trasero"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Rear Suspension Type"
+msgstr "Introduzca Suspensión trasera Tipo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Roof Rack"
+msgstr "Introduzca Roof Rack"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Running Boards"
+msgstr "Introduzca Estribos"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Trailer Hitch"
+msgstr "Introduzca Enganche de Remolque"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter Trailer Wiring"
+msgstr "Introduzca los cables del remolque"
+
+#. Text in function
+#: automotive/cdform.php:521 automotive/cdform.php:531
+msgid "Enter VIN"
+msgstr "Introduzca VIN"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Enter Vehicle Make & Model"
+msgstr "Introduzca Marca y modelo del vehículo"
+
+#. Text in function
+#: automotive/includes/form.php:1
+msgid "Enter a valid Email"
+msgstr "Ingrese un correo electrónico válido"
+
+#. Text in function
+#: automotive/cdform.php:464 automotive/cdform.php:474
+msgid "Enter exterior color"
+msgstr "Introduzca color exterior"
+
+#. Text in function
+#: automotive/cdform.php:482 automotive/cdform.php:493
+msgid "Enter interior color"
+msgstr "Introduzca color interior"
+
+#. Text in echo
+#: automotive/searchform.php:2
+msgid "Enter keywords..."
+msgstr "Introduzca las palabras clave ..."
+
+#. Text in function
+#: automotive/cdform.php:272 automotive/cdform.php:282
+#: automotive/cdform.php:283
+msgid "Enter listing title"
+msgstr "Introduzca el listado título"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter number of cylinders."
+msgstr "Introduzca el número de cilindros."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter the Vehicle Type."
+msgstr "Introduzca el tipo de vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter the full vehicle price without commas or dots."
+msgstr "Introduzca el precio del vehículo completo y sin comas o puntos."
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:814
+msgid "Enter title for third module:</strong> <br/>(leave empty to hide)"
+msgstr ""
+"Introduzca el título de tercer módulo: </ strong> <br/> (dejar en blanco "
+"para ocultar)"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle condition."
+msgstr "Introduzca el estado del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle curb weight"
+msgstr "Introduzca el peso en vacío del vehículo"
+
+#. Text in function
+#: automotive/cdform.php:500 automotive/cdform.php:510
+#: automotive/cdform.php:511
+msgid "Enter vehicle drive"
+msgstr "Introduzca tracción del vehículo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle drive type."
+msgstr "Introduzca el tipo de unidad de vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle engine size."
+msgstr "Introduzca el tamaño del motor del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle engine type."
+msgstr "Ingrese el tipo de motor del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle exterior color."
+msgstr "Introduzca color exterior"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle fuel capacity."
+msgstr "Introduzca la capacidad de combustible del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle head room."
+msgstr "Entra en la habitación principal del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle height."
+msgstr "Introduzca la altura del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle horsepower."
+msgstr "Introduzca caballos de fuerza del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle identification number."
+msgstr "Introduzca el número de identificación del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle interior color."
+msgstr "Introduzca el color interior del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle leg room"
+msgstr "Entra espacio para piernas"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle mileage."
+msgstr "Ingrese las millas del vehículo."
+
+#. Text in function
+#: automotive/cdform.php:443 automotive/cdform.php:454
+msgid "Enter vehicle miles"
+msgstr "Introduzca millas vehiculares"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle overall length"
+msgstr "Introduzca la longitud total del vehículo"
+
+#. Text in function
+#: automotive/cdform.php:425 automotive/cdform.php:435
+#: automotive/cdform.php:436
+msgid "Enter vehicle price"
+msgstr "Introduzca el precio del vehículo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle seating capacity"
+msgstr "Introduzca la capacidad de asientos de vehículos"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle stock number."
+msgstr "Introduzca el numero de vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle tires."
+msgstr "Introduzca neumáticos de vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle transmission type."
+msgstr "Introduzca el tipo de transmisión del vehículo."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle wheelbase"
+msgstr "Introduzca la distancia entre ejes del vehículo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Enter vehicle width"
+msgstr "Introduzca la anchura del vehículo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Enter vehicle year."
+msgstr "Ingrese año de vehículo."
+
+#. Text in function
+#: automotive/cdform.php:813 automotive/cdform.php:823
+#: automotive/cdform.php:824
+msgid "Enter your E-mail"
+msgstr "Ingrese su E-mail"
+
+#. Text in function
+#: automotive/cdform.php:749 automotive/cdform.php:760
+#: automotive/cdform.php:761
+msgid "Enter your first name"
+msgstr "Escriba su nombre"
+
+#. Text in function
+#: automotive/cdform.php:769 automotive/cdform.php:781
+#: automotive/cdform.php:782
+msgid "Enter your last name"
+msgstr "Escriba su apellido"
+
+#. Text in function
+#: automotive/cdform.php:833 automotive/cdform.php:844
+#: automotive/cdform.php:845
+msgid "Enter your phone number"
+msgstr "Introduzca su número de teléfono"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Epa Mileage:"
+msgstr "Epa Kilometraje:"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/user-post-type.php:97
+msgid "Exterior"
+msgstr "Exterior"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Exterior:"
+msgstr "Exterior:"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:1078
+msgid "Facebook Page Name: "
+msgstr "Nombre de la página de Facebook:"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/includes/slider.php:2
+msgid "Featured"
+msgstr "Destacado"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:763
+msgid "Featured Post"
+msgstr "Articulo destacado"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Featured:"
+msgstr "Destacado:"
+
+#. Text in echo
+#: automotive/single-user_listing.php:53 automotive/functions.php:1701
+#: automotive/functions/meta-boxes-code.php:1143 automotive/single-gtcd.php:46
+msgid "Features"
+msgstr "Características"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Features:"
+msgstr "Características:"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:102
+msgid "Fields"
+msgstr "Campos"
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:68
+msgid "File"
+msgstr "Campo"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:182
+msgid "File Import Fields"
+msgstr "Campos de importación"
+
+#. Text in echo
+#: automotive/financing.php:171
+msgid "Fill-in Your Loan Information"
+msgstr "Información de Préstamo"
+
+#. Text in echo
+#: automotive/functions.php:19
+msgid "Filter By Stock Number"
+msgstr "Filtrar por Número de Stock"
+
+#. Text in echo
+#: automotive/includes/find-cars.php:13
+msgid "Find cars by Features"
+msgstr "Encuentra coches por Características"
+
+#. Text in echo
+#: automotive/includes/find-cars.php:15
+msgid "Find cars by Make"
+msgstr "Encuentra coches por Marca"
+
+#. Text in echo
+#: automotive/includes/find-cars.php:11
+msgid "Find cars by Vehicle Type"
+msgstr "Encuentra coches por tipo de vehículo"
+
+#. Text in function
+#: automotive/cdform.php:272
+msgid "First Name"
+msgstr "Primer Nombre"
+
+#. Text in function
+#: automotive/cdform.php:6
+msgid "First Name:"
+msgstr "Primer Nombre:"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "First Row Power Outlet"
+msgstr "Tomacorrientes de primera fila"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "First Row Vanity Mirrors"
+msgstr "Espejos de vanidad de primera fila"
+
+#. Text in echo
+#: automotive/cdform.php:747
+msgid "First name"
+msgstr "Nombre"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Folding Second Row Seats"
+msgstr "Segunda fila de asientos reclinables"
+
+#. Text in function
+#: automotive/widgets/register-sidebars.php:1
+msgid "Footer"
+msgstr "Pie de página"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Footer 1 Widget"
+msgstr "Pie de página 1"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Footer 2 Widget"
+msgstr "Pie de página 2"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Footer 3 Widget"
+msgstr "Pie de página 3"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Footer 4 Widget (Map)"
+msgstr "Pie de página 4 (Mapa)"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Front Air Conditioning"
+msgstr "Delantera Aire Acondicionado"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Front Brake Type"
+msgstr "Delantero Tipo de freno"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Front Suspension Type"
+msgstr "Tipo de suspensión delantera"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Fuel Capacity"
+msgstr "Capacidad de combustible"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Fuel Capacity:"
+msgstr "Capacidad de combustible:"
+
+#. Text in function
+#: automotive/news.php:24
+msgid "Full Article..."
+msgstr "Artículo completo ..."
+
+#. Text in echo
+#: automotive/footer.php:43
+msgid "Go To Top"
+msgstr "Ir al inicio"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:72
+msgid "Go to "
+msgstr "Ir a"
+
+#. Text in echo
+#: automotive/functions/styles.php:40
+msgid "Green"
+msgstr "Verde"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Gtalk"
+msgstr "Gtalk"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Head Room"
+msgstr "Espacio para la cabeza"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Head Room:"
+msgstr "Espacio para la cabeza:"
+
+#. Text in function
+#: automotive/functions/basic-theme-setup.php:1
+msgid "Header Menu"
+msgstr "Menú Header"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Heated Driver Passenger Mirror"
+msgstr "Espejo de pasajeros con calefacción "
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Heated Driver Side Mirror"
+msgstr "Espejo de conductor con calefacción "
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Height"
+msgstr "Alto"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Height:"
+msgstr "Alto:"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:148
+msgid "Hierarchy"
+msgstr "Jerarquía"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Horsepower"
+msgstr "Caballo de fuerza"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Horsepower:"
+msgstr "Caballo de fu:erza"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Hybrids"
+msgstr "Hibrido"
+
+#. Text in echo
+#: automotive/functions.php:1308
+msgid "I want to be notified by e-mail"
+msgstr "Quiero recibir avisos por e-mail"
+
+#. Text in function
+#: automotive/includes/form.php:149
+msgid "I would like to request more information about "
+msgstr "Me gustaría pedir más información acerca de"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:182
+msgid "INTEREST RATE: %"
+msgstr "Tasa de interés:%"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid ""
+"If YES selected the image of this post will be displayed in the home "
+"slideshow."
+msgstr ""
+"En caso afirmativo selecciona la imagen de este post se mostrará en la "
+"presentación de diapositivas en casa."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "If yes this Vehicle will show up on the Top Deals Widget."
+msgstr "Si es así este vehículo se mostrará en los Top Ventas Widget."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "If yes this Vehicle will show up on the home page featured module."
+msgstr ""
+"Si es así este vehículo se mostrará en la página principal del módulo "
+"ofrecido."
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:70
+msgid ""
+"If you notice that some of your listings do not have photos attached it is "
+"because they were not found in the database."
+msgstr ""
+"Si usted nota que algunos de sus anuncios no contamos con fotos adjuntas, es "
+"porque no se encontraron en la base de datos."
+
+#. Text in function
+#: automotive/functions/file/functions.php:1
+msgid "Import Vehicles"
+msgstr "Importar Vehículos"
+
+#. Text in function
+#: automotive/cdform.php:6 automotive/includes/form.php:1
+#: automotive/contact-us.php:22
+msgid "Incorrect Security Code"
+msgstr "Código de seguridad incorrecta"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Independent Suspension"
+msgstr "Suspensión Independiente"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:78
+msgid "Insert Edmunds API Vehicle Key"
+msgstr "Inserte el Edmunds API aqui."
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:1451
+msgid "Insert Image into Input Field"
+msgstr "Insertar imagen en el campo de entrada"
+
+#. Text in echo
+#: automotive/financing.php:193
+msgid "Interest Rate: "
+msgstr "Tasa de interés:"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/user-post-type.php:97
+msgid "Interior"
+msgstr "Interior"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Interior:"
+msgstr "Interior"
+
+#. Text in function
+#: automotive/functions/gtcd-post-type.php:1
+msgid "Inventory"
+msgstr "Inventario"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:188
+msgid "LOAN TERM: Yrs.   "
+msgstr "Plazo del préstamo: Años."
+
+#. Text in function
+#: automotive/cdform.php:6
+msgid "Last Name:"
+msgstr "Apellido:"
+
+#. Text in echo
+#: automotive/cdform.php:767
+msgid "Last name"
+msgstr "Apellido"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:1116
+msgid "Learn more"
+msgstr "Leer más"
+
+#. Text in function
+#: automotive/comments.php:70
+msgid "Leave A Reply"
+msgstr "Responder"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Leg Room"
+msgstr "Espacio para las piernas"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Leg Room:"
+msgstr "Espacio para las piernas:"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:1014
+msgid "Legend: "
+msgstr "Mensaje:"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Links"
+msgstr "Enlaces"
+
+#. Text in function
+#: automotive/cdform.php:219
+msgid "Listing Title:"
+msgstr "Título del anuncio:"
+
+#. Text in echo
+#: automotive/financing.php:204
+msgid "Loan Term: "
+msgstr "Plazo del préstamo:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Location"
+msgstr "Ubicación"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Location:"
+msgstr "Ubicación"
+
+#. Text in echo
+#: automotive/comments.php:84
+msgid "Log out"
+msgstr "Finalizar la sesión"
+
+#. Text in echo
+#: automotive/comments.php:84
+msgid "Logged in as "
+msgstr "Conectado como"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Luxury Vehicles"
+msgstr "Vehículos de Lujo"
+
+#. Text in echo
+#: automotive/comments.php:90
+msgid "Mail*"
+msgstr "Correo*"
+
+#. Text in echo
+#: automotive/cdform.php:295
+msgid "Make"
+msgstr "Marca"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/user-post-type.php:1
+#: automotive/functions/gtcd-post-type.php:1
+msgid "Make & Model"
+msgstr "Marca & Modelo"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Make & Model:"
+msgstr "Marca & Modelo"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Manual"
+msgstr "Manual"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Maximum Cargo Capacity Suspension"
+msgstr "Capacidad máxima de carga para suspensión "
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Media"
+msgstr "Media"
+
+#. Text in echo
+#: automotive/includes/form.php:146 automotive/includes/side-form.php:111
+msgid "Message"
+msgstr "Mensaje"
+
+#. Text in function
+#: automotive/functions/menu-and-settings-page.php:1
+msgid "Metric:"
+msgstr "Metrica:"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/user-post-type.php:97
+#: automotive/functions/search-code.php:266
+msgid "Miles"
+msgstr "Millas"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Miles:"
+msgstr "Millas:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Minivans and Vans"
+msgstr "Minivans y Vans"
+
+#. Text in echo
+#: automotive/cdform.php:356
+msgid "Model"
+msgstr "Modelo"
+
+#. Text in echo
+#: automotive/financing.php:255
+msgid "Monthly Payment: "
+msgstr "Pago mensual:"
+
+#. Text in echo
+#: automotive/cdform.php:716
+msgid "More photos"
+msgstr "Más fotos"
+
+#. Text in function
+#: automotive/includes/form.php:1 automotive/contact-us.php:145
+msgid "Name"
+msgstr "Nombre"
+
+#. Text in echo
+#: automotive/comments.php:88
+msgid "Name*"
+msgstr "Nombre*"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "New"
+msgstr "Nuevo"
+
+#. Text in function
+#: automotive/functions/custom-taxonomies.php:1
+msgid "New "
+msgstr "Nuevo"
+
+#. Text in echo
+#: automotive/includes/arrivals.php:2
+msgid "New Arrivals"
+msgstr "Nuevas adquisiciones"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "No"
+msgstr "No"
+
+#. Text in function
+#: automotive/comments.php:17
+msgid "No Comments"
+msgstr "Sin comentarios"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+#: automotive/functions/gtcd-post-type.php:1
+msgid "No Vehicles Found"
+msgstr "No hay vehículos encontrados"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+#: automotive/functions/gtcd-post-type.php:1
+msgid "No Vehicles Found In Trash"
+msgstr "No hay vehículos encontrados en la basura"
+
+#. Text in echo
+#: automotive/category.php:29 automotive/tag.php:31 automotive/archive.php:29
+msgid "No, Results Found"
+msgstr "No, se encontraron resultados"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "None"
+msgstr "Ninguno"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Number of Cylinders"
+msgstr "Número de cilindros"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Number of Cylinders:"
+msgstr "Número de cilindros:"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:397
+msgid "Number of Vehicles:"
+msgstr "Número de Vehículos "
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:498
+msgid "Number of listings:"
+msgstr "Number of listados:"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:372
+msgid "Number of vehicles"
+msgstr "Número de Vehículos "
+
+#. Text in function
+#: automotive/comments.php:17
+msgid "One Comment"
+msgstr "Un mensaje"
+
+#. Text in echo
+#: automotive/functions.php:549
+msgid "Option 10:"
+msgstr "Opción 10:"
+
+#. Text in echo
+#: automotive/functions.php:550
+msgid "Option 11:"
+msgstr "Opción 11:"
+
+#. Text in echo
+#: automotive/functions.php:551
+msgid "Option 12:"
+msgstr "Opción 12:"
+
+#. Text in echo
+#: automotive/functions.php:540 automotive/functions.php:559
+msgid "Option 1:"
+msgstr "Opción 1:"
+
+#. Text in echo
+#: automotive/functions.php:541 automotive/functions.php:561
+msgid "Option 2:"
+msgstr "Opción 2:"
+
+#. Text in echo
+#: automotive/functions.php:542 automotive/functions.php:563
+msgid "Option 3:"
+msgstr "Opción 3:"
+
+#. Text in echo
+#: automotive/functions.php:543 automotive/functions.php:565
+msgid "Option 4:"
+msgstr "Opción 4:"
+
+#. Text in echo
+#: automotive/functions.php:544
+msgid "Option 5:"
+msgstr "Opción 5:"
+
+#. Text in echo
+#: automotive/functions.php:545
+msgid "Option 6:"
+msgstr "Opción 6:"
+
+#. Text in echo
+#: automotive/functions.php:546
+msgid "Option 7:"
+msgstr "Opción 7:"
+
+#. Text in echo
+#: automotive/functions.php:547
+msgid "Option 8:"
+msgstr "Opción 8:"
+
+#. Text in echo
+#: automotive/functions.php:548
+msgid "Option 9:"
+msgstr "Opción 9:"
+
+#. Text in echo
+#: automotive/functions/styles.php:19
+msgid "Options saved"
+msgstr "Opciones guardadas"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Other"
+msgstr "Otro"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Overall Lenght"
+msgstr "Longitud total"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Overall Length:"
+msgstr "Longitud total:"
+
+#. Text in echo
+#: automotive/single-user_listing.php:56 automotive/single-gtcd.php:49
+msgid "Overview"
+msgstr "Resumen"
+
+#. Text in function
+#: automotive/header.php:14
+msgid "Page %s"
+msgstr "Página% s"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Pages"
+msgstr "Páginas"
+
+#. Text in function
+#: automotive/functions/custom-taxonomies.php:1
+msgid "Parent"
+msgstr "Padre"
+
+#. Text in function
+#: automotive/functions/custom-taxonomies.php:1
+msgid "Parent "
+msgstr "Padre"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Passenger Airbags"
+msgstr "Airbag de pasajeros"
+
+#. Text in echo
+#: automotive/cdform.php:735
+msgid "Personal Information &raquo;"
+msgstr "Información personal »"
+
+#. Text in function
+#: automotive/functions.php:1323 automotive/includes/form.php:1
+msgid "Phone"
+msgstr "Telefono"
+
+#. Text in function
+#: automotive/cdform.php:6
+msgid "Phone Number:"
+msgstr "Numero de telefono:"
+
+#. Text in echo
+#: automotive/cdform.php:831
+msgid "Phone number"
+msgstr "Numero de telefono"
+
+#. Text in function
+#: automotive/includes/meta-box-usage.php:1
+#: automotive/functions/file/includes/map.php:189
+#: automotive/functions/meta-boxes-code.php:1143
+msgid "Photo Gallery"
+msgstr "Galeria de fotos"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Pickup Trucks"
+msgstr "Camionetas"
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:
+msgid "Please click "
+msgstr "Por favor, haga clic en"
+
+#. Text in function
+#: automotive/includes/form.php:1
+msgid "Please enter a message."
+msgstr "Por favor, introduzca un mensaje."
+
+#. Text in function
+#: automotive/contact-us.php:169 automotive/contact-us.php:234
+msgid "Please enter your email"
+msgstr "Introduzca su dirección de correo electrónico"
+
+#. Text in function
+#: automotive/contact-us.php:190
+msgid "Please enter your message"
+msgstr "Introduzca su mensaje"
+
+#. Text in function
+#: automotive/contact-us.php:148
+msgid "Please enter your name"
+msgstr "Por favor, introduzca su nombre"
+
+#. Text in echo
+#: automotive/functions/file/index.php:6
+msgid ""
+"Please follow the instructions below to import your existing vehicles into "
+"Automotive theme."
+msgstr ""
+"Por favor, siga las siguientes instrucciones para importar sus vehículos "
+"existentes en el tema automotriz."
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:61
+msgid "Please insert API Key!"
+msgstr "Por favor, introduzca la clave de API!"
+
+#. Text in echo
+#: automotive/cdform.php:803 automotive/includes/slider.php:53
+msgid "Please wait"
+msgstr "Por favor espera"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Plugins"
+msgstr "Plugins"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Power Door Locks"
+msgstr "Seguros de puerta Electricos"
+
+#. Text in echo
+#: automotive/footer.php:19 automotive/footer-form.php:4
+msgid "Powered by"
+msgstr "Impulsado por por"
+
+#. Text in echo
+#: automotive/footer.php:10
+msgid "Powered by "
+msgstr "Impulsado por"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/search-code.php:268
+msgid "Price"
+msgstr "Precio"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Price:"
+msgstr "Precio:"
+
+#. Text in echo
+#: automotive/single-user_listing.php:18
+msgid "Price: "
+msgstr "Precio:"
+
+#. Text in echo
+#: automotive/financing.php:229
+msgid "Principal: "
+msgstr "Principal:"
+
+#. Text in echo
+#: automotive/cdform.php:701
+msgid "Property Photos"
+msgstr "Fotos"
+
+#. Text in echo
+#: automotive/financing.php:181
+msgid "Purchase Price:  "
+msgstr "Precio de compra:"
+
+#. Text in echo
+#: automotive/financing.php:177
+msgid "Purchase information"
+msgstr "Información de la compra"
+
+#. Text in echo
+#: automotive/functions/styles.php:39
+msgid "Purple"
+msgstr "Violeta"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Rear Brake Diameter"
+msgstr "Diámetro del freno trasero"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Rear Suspension Type"
+msgstr "Tipo de suspensión trasera"
+
+#. Text in echo
+#: automotive/functions/styles.php:37
+msgid "Red"
+msgstr "Rojo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Reduced"
+msgstr "Reducido"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:73
+msgid ""
+"Register a new free account on Edmunds website to get your API key in order "
+"to use the Automotive VIN Decoder."
+msgstr ""
+"Registrar una cuenta gratuita en el sitio web de Edmunds para obtener su "
+"clave de API para poder utilizar el Automotive VIN Decoder."
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:101
+msgid ""
+"Rename labels and options for the search module and hide-show each field in "
+"the form."
+msgstr ""
+"Cambiar el nombre de las etiquetas y las opciones para el módulo de búsqueda "
+"y ocultar-show cada campo del formulario."
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Request More Information"
+msgstr "Solicitar más información"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Roof Rack"
+msgstr "Roof Rack"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Running Boards"
+msgstr "Estribos"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Sale"
+msgstr "Venta"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:39
+#: automotive/functions/menu-and-settings-page.php:85
+#: automotive/functions/menu-and-settings-page.php:108
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#. Text in echo
+#: automotive/functions/styles.php:47
+msgid "Save Options"
+msgstr "Guardar Opciones"
+
+#. Text in echo
+#: automotive/searchform.php:3 automotive/functions/search-code.php:99
+#: automotive/functions/search-code.php:102
+msgid "Search"
+msgstr "Búsqueda"
+
+#. Text in function
+#: automotive/functions/custom-taxonomies.php:1
+msgid "Search "
+msgstr "Buscar"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Search Fields"
+msgstr "Campos de búsqueda"
+
+#. Text in function
+#: automotive/widgets/register-sidebars.php:1
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Search Module"
+msgstr "Módulo de búsqueda"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+#: automotive/functions/gtcd-post-type.php:1
+#: automotive/includes/search-common.php:3
+msgid "Search Vehicles"
+msgstr "Buscar Vehiculos"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Searching"
+msgstr "Buscando"
+
+#. Text in echo
+#: automotive/includes/slider.php:50
+msgid "Searching Inventory"
+msgstr "Buscando Inventario"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Seating Capacity (Std)"
+msgstr "Capacidad de asientos (estándar)"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Seating Capacity (Std):"
+msgstr "Capacidad de asientos (estándar):"
+
+#. Text in echo
+#: automotive/cdform.php:896 automotive/contact-us.php:223
+msgid "Security Code: "
+msgstr "Código de seguridad:"
+
+#. Text in echo
+#: automotive/cdform.php:885 automotive/includes/form.php:171
+#: automotive/contact-us.php:214 automotive/includes/side-form.php:133
+msgid "Security Text"
+msgstr "Texto de Seguridad"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Sedans and Coupes"
+msgstr "Sedanes y Coupes"
+
+#. Text in echo
+#: automotive/cdform.php:607
+msgid "Select"
+msgstr "Seleccionar"
+
+#. Text in function
+#: automotive/functions.php:588 automotive/functions/search-code.php:691
+msgid "Select City"
+msgstr "Ciudad"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:192
+msgid "Select Field"
+msgstr "Seleccionar campo"
+
+#. Text in echo
+#: automotive/functions/file/includes/upload.php:6
+msgid "Select Import File"
+msgstr "Seleccione Importar archivo"
+
+#. Text in function
+#: automotive/cdform.php:334 automotive/functions/search-code.php:733
+msgid "Select Make"
+msgstr "Marca"
+
+#. Text in function
+#: automotive/functions.php:588 automotive/cdform.php:365
+#: automotive/functions/search-code.php:750
+msgid "Select Model"
+msgstr "Modelo"
+
+#. Text in function
+#: automotive/functions/search-code.php:733
+msgid "Select State"
+msgstr "Estado"
+
+#. Text in echo
+#: automotive/functions/styles.php:35
+msgid "Select a color style for your website: "
+msgstr "Seleccione un estilo de color para su sitio web:"
+
+#. Text in echo
+#: automotive/functions/menu-and-settings-page.php:34
+msgid "Select your currency and metrics."
+msgstr "Select your currency and metrics."
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Semi-Auto"
+msgstr "Semi-Auto"
+
+#. Text in echo
+#: automotive/includes/form.php:182
+msgid "Send"
+msgstr "Enviar"
+
+#. Text in echo
+#: automotive/cdform.php:861
+msgid "Send copy to my email address"
+msgstr "Enviar copia a mi dirección de correo electrónico"
+
+#. Text in function
+#: automotive/cdform.php:541 automotive/cdform.php:551
+#: automotive/cdform.php:553
+msgid "Separate features with commas (feature1, feature2, feature3)"
+msgstr "Separe con comas (característica1, característica2, característica3)"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:183
+msgid "Separator"
+msgstr "Separador"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Settings"
+msgstr "Configuración"
+
+#. Text in function
+#: automotive/widgets/register-sidebars.php:1
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#. Text in function
+#: automotive/widgets/register-sidebars.php:1
+msgid "Similar Cars"
+msgstr "Vehículos similares"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Skype"
+msgstr "Skype"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Sold"
+msgstr "Vendido"
+
+#. Text in echo
+#: automotive/category.php:30 automotive/tag.php:32 automotive/archive.php:30
+msgid "Sorry, No Posts found!"
+msgstr "Lo sentimos, no se ha encontrado!"
+
+#. Text in echo
+#: automotive/includes/form.php:81 automotive/includes/side-form.php:72
+msgid "Sorry, an error occured."
+msgstr "Lo sentimos, ha ocurrido un error."
+
+#. Text in echo
+#: automotive/taxonomy.php:51 automotive/functions/search-code.php:342
+msgid "Sorry, no listings matched your criteria."
+msgstr "Lo sentimos, no hay listados que coincidan con esos criterios."
+
+#. Text in echo
+#: automotive/includes/slider.php:42
+msgid "Sorry, no posts matched your criteria."
+msgstr "Lo sentimos, no hay puestos corresponde a sus criterios."
+
+#. Text in echo
+#: automotive/404.php:8
+msgid "Sorry, no results found. Please try another search"
+msgstr "Lo sentimos, no hay resultados. Por favor, intente otra búsqueda"
+
+#. Text in echo
+#: automotive/functions/search-code.php:253
+msgid "Sort By:"
+msgstr "Ordenar por:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Sport Utilities"
+msgstr "4x4"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Sports Cars"
+msgstr "Deportivo"
+
+#. Text in echo
+#: automotive/functions.php:223
+msgid "Start Date:"
+msgstr "Inicio:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "State"
+msgstr "Estado"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "State:"
+msgstr "Estado:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Stock"
+msgstr "Stock"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Stock #:"
+msgstr "Stock #:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Stroke"
+msgstr "Carrera"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Stroke:"
+msgstr "Carrera:"
+
+#. Text in echo
+#: automotive/cdform.php:917
+msgid "Submit"
+msgstr "Enviar"
+
+#. Text in echo
+#: automotive/comments.php:98
+msgid "Submit Comment"
+msgstr "Enviar Mensaje"
+
+#. Text in echo
+#: automotive/cdform.php:200
+msgid "Submit your Vehicle to"
+msgstr "Enviar Vehículo a"
+
+#. Text in function
+#: automotive/category.php:11 automotive/archive.php:11
+msgid "Tag Archives: %s"
+msgstr "Archivo de la etiqueta:% s"
+
+#. Text in echo
+#: automotive/cdform.php:211
+msgid "Thank you "
+msgstr "Gracias"
+
+#. Text in echo
+#: automotive/contact-us.php:128
+msgid "Thanks,"
+msgstr "Gracias,"
+
+#. Text in echo
+#: automotive/includes/form.php:75 automotive/includes/side-form.php:66
+msgid "Thanks, your email was sent successfully."
+msgstr "Gracias, su correo electrónico ha sido enviado con éxito."
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:62
+msgid "The fields on the left are Automotive theme inventory fields"
+msgstr "Los campos en la izquierda son Automotive campos"
+
+#. Text in function
+#: automotive/functions/styles.php:1
+msgid "Theme Color"
+msgstr "Tema de color"
+
+#. Text in function
+#: automotive/functions/styles.php:1
+msgid "Theme Style"
+msgstr "Estilo tema"
+
+#. Text in echo
+#: automotive/contact-us.php:138
+msgid "There was an error submitting the form."
+msgstr "Hubo un error al enviar el formulario."
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:69
+msgid "There were"
+msgstr "Había"
+
+#. Text in echo
+#: automotive/cdform.php:218
+msgid "This is a summary of your submitted listing."
+msgstr "Este es un resumen de su listado."
+
+#. Text in echo
+#: automotive/comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Esta entrada está protegida. Introduzca la contraseña para ver los "
+"comentarios."
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Tires (Std)"
+msgstr "Neumáticos"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Tires (Std):"
+msgstr "Neumáticos:"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:372
+msgid "Title"
+msgstr "Titutlo"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:393
+#: automotive/widgets/theme-widgets.php:576
+msgid "Title:"
+msgstr "Titulo:"
+
+#. Text in function
+#: automotive/cdform.php:136 automotive/widgets/theme-widgets.php:1383
+msgid "Title: "
+msgstr "Titulo:"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Tools"
+msgstr "Herramientas"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Top Deal"
+msgstr "Promoción"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Top Deal?:"
+msgstr "Promoción?"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Torque"
+msgstr "Torsión"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Torque:"
+msgstr "Torsión:"
+
+#. Text in echo
+#: automotive/financing.php:242
+msgid "Total Payments: "
+msgstr "Pago total:"
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:1429
+msgid "Total images count: "
+msgstr "Número de imágenes:"
+
+#. Text in echo
+#: automotive/comments.php:41
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Trailer Hitch"
+msgstr "Enganche de Remolque"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:198
+msgid "Trailer Wiring"
+msgstr "Cableado de Remolque"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Transmission"
+msgstr "Transmisión"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Transmission:"
+msgstr "Transmisión:"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:1163
+msgid "URL for full page : "
+msgstr "URL de la página:"
+
+#. Text in function
+#: automotive/functions/custom-taxonomies.php:1
+msgid "Update "
+msgstr "Actualización"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:1451
+msgid "Upload Images"
+msgstr "Subir Imágenes"
+
+#. Text in echo
+#: automotive/cdform.php:709
+msgid "Upload Photo 1 "
+msgstr "Subir Foto 1"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:1451
+msgid "Upload or Choose Your Custom Image File"
+msgstr "Cargar su archivo personalizado de imagen"
+
+#. Text in echo
+#: automotive/cdform.php:795
+msgid "Uploading your Vehicle Information"
+msgstr "Cargar información de su vehículo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Used"
+msgstr "Usado"
+
+#. Text in function
+#: automotive/cdform.php:6
+msgid "User already exists.  Password inherited."
+msgstr "El usuario ya existe. Contraseña heredada."
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "Users"
+msgstr "Usuarios"
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:1143
+msgid "VIEW PHOTO GALLERY AND FULL VEHICLE DETAILS"
+msgstr "VER GALERÍA DE FOTOS Y DETALLES DEL VEHICULO COMPLETO"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "VIN"
+msgstr "VIN"
+
+#. Text in function
+#: automotive/functions/menu-and-settings-page.php:1
+msgid "VIN Decoder Setup"
+msgstr "Configuración VIN Decoder"
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:796
+msgid "VIN Number: "
+msgstr "VIN:"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/user-post-type.php:97
+msgid "VIN:"
+msgstr "VIN:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Valves"
+msgstr "Válvulas"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Valves per Cylinder:"
+msgstr "Válvulas por cilindro:"
+
+#. Text in function
+#: automotive/widgets/register-sidebars.php:1
+msgid "Vehicle Details Widget"
+msgstr "Detalles del vehículo"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+#: automotive/functions/meta-boxes-code.php:763
+#: automotive/functions/gtcd-post-type.php:1
+msgid "Vehicle Information"
+msgstr "Información sobre el vehículo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:763
+msgid "Vehicle Overview"
+msgstr "Descripción general del vehículo"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+#: automotive/functions/gtcd-post-type.php:1
+msgid "Vehicle Photo"
+msgstr "Foto de Vehículo"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:763
+msgid "Vehicle Specifications"
+msgstr "Especificaciones del vehículo"
+
+#. Text in echo
+#: automotive/functions/file/includes/map.php:90
+msgid "Vehicle Title"
+msgstr "Títulos de Vehículos"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Vehicle Type"
+msgstr "Tipo de vehículo"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Vehicle Type:"
+msgstr "Tipo de vehículo:"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:763
+msgid "Vehicle VIN Number Decoder"
+msgstr "Vehículo Número VIN Decoder"
+
+#. Text in echo
+#: automotive/single-user_listing.php:61 automotive/single-user_listing.php:62
+#: automotive/single-gtcd.php:54 automotive/single-gtcd.php:55
+msgid "Video"
+msgstr "Video"
+
+#. Text in echo
+#: automotive/functions.php:1448
+msgid "Video ID"
+msgstr "Video ID:"
+
+#. Text in echo
+#: automotive/functions.php:1452
+msgid "Video Source"
+msgstr "Fuente de vídeo"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:355
+#: automotive/includes/arrivals.php:38
+msgid "View"
+msgstr "Ver"
+
+#. Text in function
+#: automotive/functions/menu-and-settings-page.php:1
+msgid "View All Listings"
+msgstr "Ver listados"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+#: automotive/functions/gtcd-post-type.php:1
+msgid "View Vehicle"
+msgstr "Ver Vehiculo"
+
+#. Text in echo
+#: automotive/functions.php:1455
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Wagons"
+msgstr "Vagones"
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+msgid "Web Listings"
+msgstr "Listados web"
+
+#. Text in echo
+#: automotive/comments.php:92
+msgid "Website"
+msgstr "Website"
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:1143
+msgid "Website:"
+msgstr "Website:"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid "Welcome Legend on Home Page"
+msgstr "Leyenda de Bienvenida "
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Wheelbase"
+msgstr "Distancia entre ejes"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Wheelbase:"
+msgstr "Distancia entre ejes:"
+
+#. Text in echo
+#: automotive/widgets/theme-widgets.php:492
+msgid "Widget Title:"
+msgstr "Título de Widget:"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Width"
+msgstr "Ancho"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Width:"
+msgstr "Ancho:"
+
+#. Text in echo
+#: automotive/footer.php:11 automotive/footer-form.php:5
+msgid "WordPress"
+msgstr "WordPress"
+
+#. Text in echo
+#: automotive/functions/file/includes/upload.php:7
+msgid "XML"
+msgstr "XML"
+
+#. Text in function
+#: automotive/functions.php:1701 automotive/functions/search-code.php:267
+msgid "Year"
+msgstr "Año"
+
+#. Text in function
+#: automotive/functions.php:1701
+msgid "Year:"
+msgstr "Año:"
+
+#. Text in function
+#: automotive/functions/meta-boxes-code.php:931
+msgid "Yes"
+msgstr "Si"
+
+#. Text in function
+#: automotive/contact-us.php:22
+msgid "You emailed Your "
+msgstr "Usted envio correo electrónico a"
+
+#. Text in function
+#: automotive/includes/form.php:1 automotive/contact-us.php:22
+msgid "You entered an invalid email address."
+msgstr "Ha introducido una dirección de email válida."
+
+#. Text in function
+#: automotive/contact-us.php:22
+msgid "You forgot to enter your comments."
+msgstr "Usted se olvidó de escribir sus comentarios."
+
+#. Text in function
+#: automotive/contact-us.php:22
+msgid "You forgot to enter your email address."
+msgstr "Se le olvidó introducir su dirección de correo electrónico."
+
+#. Text in function
+#: automotive/contact-us.php:22
+msgid "You forgot to enter your name."
+msgstr "Se le olvidó que ingrese su nombre."
+
+#. Text in echo
+#: automotive/comments.php:77
+msgid "You must be "
+msgstr "Usted debe ser"
+
+#. Text in echo
+#: automotive/functions.php:1454
+msgid "YouTube"
+msgstr "YouTube"
+
+#. Text in function
+#: automotive/functions/menu-and-settings-page.php:1
+msgid "Your Currency:"
+msgstr "Su moneda:"
+
+#. Text in function
+#: automotive/includes/form.php:1
+msgid "Your Email"
+msgstr "Su correo electrónico"
+
+#. Text in function
+#: automotive/widgets/theme-widgets.php:1320
+msgid ""
+"Your Facebook Fan Box, add your Facebook Fan Page ID and place this widget "
+"in your Sidebar to display your followers."
+msgstr ""
+"Añadir tu Facebook ID Fan Page y colocar este widget en la barra lateral "
+"para mostrar a sus seguidores."
+
+#. Text in function
+#: automotive/includes/form.php:1
+msgid "Your Name"
+msgstr "Su nombre"
+
+#. Text in function
+#: automotive/cdform.php:6
+msgid "Your Personal Information"
+msgstr "Su Información Personal"
+
+#. Text in echo
+#: automotive/financing.php:221
+msgid "Your Results"
+msgstr "Sus Resultados"
+
+#. Text in echo
+#: automotive/cdform.php:260
+msgid "Your Vehicle Information &raquo;"
+msgstr "Su información del vehículo »"
+
+#. Text in echo
+#: automotive/comments.php:49
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está esperando ser moderado."
+
+#. Text in echo
+#: automotive/contact-us.php:132
+msgid "Your email was successfully sent. I will be in touch soon."
+msgstr "Tu email ha sido enviado con éxito. Voy a estar en contacto pronto."
+
+#. Text in echo
+#: automotive/cdform.php:270
+msgid "Your listing title"
+msgstr "Su anuncio en el título"
+
+#. Text in function
+#: automotive/includes/form.php:1
+msgid "Your phone number"
+msgstr "Su número de teléfono"
+
+#. Text in echo
+#: automotive/cdform.php:250
+msgid "Your verification code is wrong"
+msgstr "El código de verificación es incorrecto"
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:
+msgid "here"
+msgstr "Aquí"
+
+#. Text in echo
+#: automotive/functions/meta-boxes-code.php:1429
+msgid "images"
+msgstr "Imágenes"
+
+#. Text in function
+#: automotive/functions/gtcd-post-type.php:1
+msgid "inventory"
+msgstr "Inventario"
+
+#. Text in echo
+#: automotive/comments.php:77
+msgid "logged in"
+msgstr "Conectado"
+
+#. Text in function
+#: automotive/functions.php:1323
+msgid "more"
+msgstr "más"
+
+#. Text in echo
+#: automotive/functions/file/includes/import.php:68
+msgid "pending"
+msgstr "pendiente"
+
+#. Text in echo
+#: automotive/comments.php:77
+msgid "to post a comment."
+msgstr "para escribir un comentario."
+
+#. Text in function
+#: automotive/functions/user-post-type.php:1
+msgid "web-listings"
+msgstr "web listados"
+
+#. Text in echo
+#: automotive/cdform.php:214
+msgid ""
+"your vehicle was added successfully and it will be reviewed for publishing, "
+"you will receive an e-mail when the listing goes live and we will e-mail a "
+"password for you to edit your vehicle listing in our inventory."
+msgstr ""
+"su vehículo se añadió y será revisado para publicarlo, usted recibirá un "
+"correo electrónico cuando la lista se publique y le enviaremos su contraseña "
+"para que pueda editar su anuncio en nuestro inventario de vehículos."
