@@ -237,11 +237,13 @@ function gtcdi_import_records($post_types){
 			update_post_meta($post_type_id, 'gtcdi_status', 'import'); //create a post meta field called gtcdi_import - if import fails then remove all items on re-import that has this set with no checksum
 			update_post_meta($post_type_id, 'gtcdi_check_sum', '');
 
-			foreach($arr_insert['meta'] as $meta_key=>$meta_value)
-				update_post_meta($post_type_id, $meta_key, $meta_value);
+			if (isset($arr_insert['meta']))
+				foreach($arr_insert['meta'] as $meta_key=>$meta_value)
+					update_post_meta($post_type_id, $meta_key, $meta_value);
 			
-			foreach($arr_insert['taxonomies'] as $tax_key=>$tax_value)
-				wp_set_object_terms( $post_type_id, $tax_value['term_ids'], $tax_value['tax_key'], true );
+			if (isset($arr_insert['taxonomies']))
+				foreach($arr_insert['taxonomies'] as $tax_key=>$tax_value)
+					wp_set_object_terms( $post_type_id, $tax_value['term_ids'], $tax_value['tax_key'], true );
 			
 			if(count($value['photos'])>0){
 				$photo_ids = array();

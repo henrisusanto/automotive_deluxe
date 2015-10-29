@@ -44,7 +44,7 @@ if($_POST['file-type']=='xml'){
 }elseif($_POST['file-type']=='csv'){
 	$row = 1;
 	if (($handle = fopen(GTCDI_DIR . '/' . $importFile, 'r')) !== FALSE) {
-		while (($data = fgetcsv($handle, 1000, ',')) !== FALSE) {
+		while (($data = fgetcsv($handle, 1000, '|')) !== FALSE) {
 			//get first line column names and break
 			$importFields = $data;
 			break;
@@ -56,7 +56,7 @@ if($_POST['file-type']=='xml'){
 //create import fields drop down
 $options = '';
 foreach($importFields as $field){
-	$options .= '<option vlaue="'.$field.'">'.$field.'</option>';
+	$options .= '<option value="'.$field.'">'.$field.'</option>';
 }
 ?>
 <p class="gtcdi_desc"><?php _e('The fields on the left are Automotive theme inventory fields. 
