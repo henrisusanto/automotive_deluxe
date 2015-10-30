@@ -157,7 +157,7 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 		$downloaded = array();
 		$limit = 1;
 		foreach($importRecords as $key=>$value){
-			if ($limit > 1) continue; else $limit++; 
+			//if ($limit > 1) continue; else $limit++; 
 			foreach ($value as $tr => $im) {
 				unset($value[$tr]);
 				$value[trim($tr)] = $im;
@@ -176,12 +176,13 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 				}
 			}
 			
-			$post_types[$key]['title'] = $value['Year'] . ' ' . $value['Make'] . ' ' . $value['Model'];
+			$post_types[$key]['title'] = $value['Make'] . ' ' . $value['Model'];
 			$post_types[$key]['meta'] = gtcd_map_meta_fields($value,$post['mapMeta']);
 			$post_types[$key]['tax'] = gtcd_map_tax_fields($value,$post['mapTax']);
 			$post_types[$key]['photos'] = $postPhotos;//gtcd_map_photos($value, $post['mapPhoto']);// SAMPE SINI
 		}
 		ftp_close($conn_id);
+		//die(json_encode($importRecords[0]).json_encode($post_types));
 	}
 
 	$listing_totals = count($post_types) >0 ? gtcdi_import_records($post_types) : 0;
