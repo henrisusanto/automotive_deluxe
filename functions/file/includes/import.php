@@ -152,23 +152,43 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 		);
 
 		$post_types = array();
+		$conn_id = ftp_connect('ftp1.trader.com');
+		ftp_login($conn_id, 'ONCE_FusionAS', ')15ueODb[n');
+		$downloaded = array();
+		$limit = 1;
 		foreach($importRecords as $key=>$value){
+			if ($limit > 1) continue; else $limit++; 
 			foreach ($value as $tr => $im) {
 				unset($value[$tr]);
 				$value[trim($tr)] = $im;
 			}
+			
+			$postPhotos = array();
+			foreach ($value as $va => $lue) {
+				if (!strpos($lue, '.jpg')) continue;
+				$img = explode(',', $lue);
+				foreach ($img as $i => $mg) {
+					$download = trim($mg);
+					if (ftp_get($conn_id, get_home_path() . $download, $download, FTP_BINARY)) {
+						$downloaded[] = get_home_path() . $download;
+						$postPhotos[] = site_url($download); 
+					}
+				}
+			}
+			
 			$post_types[$key]['title'] = $value['Year'] . ' ' . $value['Make'] . ' ' . $value['Model'];
 			$post_types[$key]['meta'] = gtcd_map_meta_fields($value,$post['mapMeta']);
 			$post_types[$key]['tax'] = gtcd_map_tax_fields($value,$post['mapTax']);
-			$post_types[$key]['photos'] = gtcd_map_photos($value, $post['mapPhoto']);
+			$post_types[$key]['photos'] = $postPhotos;//gtcd_map_photos($value, $post['mapPhoto']);// SAMPE SINI
 		}
-		
+		ftp_close($conn_id);
 	}
 
-	$listing_totals = gtcdi_import_records($post_types);
+	$listing_totals = count($post_types) >0 ? gtcdi_import_records($post_types) : 0;
 	
 	//importing is completed, remove the uploaded file
-	@unlink(GTCDI_DIR . '/' . $importFile);	
+	@unlink(GTCDI_DIR . '/' . $importFile);
+	if (isset($downloaded)) foreach ($downloaded as $down => $loaded) @unlink(get_home_path() . $loaded); 
 }
 ?>
 <br><br>
