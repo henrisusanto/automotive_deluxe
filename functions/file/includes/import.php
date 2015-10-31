@@ -157,12 +157,15 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 		$downloaded = array();
 		$limit = 1;
 		foreach($importRecords as $key=>$value){
-			//if ($limit > 1) continue; else $limit++; 
+			//if ($limit > 1) continue; else $limit++;
+			
+			// trim attributes name 
 			foreach ($value as $tr => $im) {
 				unset($value[$tr]);
 				$value[trim($tr)] = $im;
 			}
 			
+			// ftp download csv.photos into vehicle.photos
 			$postPhotos = array();
 			foreach ($value as $va => $lue) {
 				if (!strpos($lue, '.jpg')) continue;
@@ -175,6 +178,9 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 					}
 				}
 			}
+			
+			// mapping csv.options as vehicle.features
+			$post['mapTax']['features'] = Array("field" => "Options","separator" => ",");
 			
 			$post_types[$key]['title'] = $value['Make'] . ' ' . $value['Model'];
 			$post_types[$key]['meta'] = gtcd_map_meta_fields($value,$post['mapMeta']);
