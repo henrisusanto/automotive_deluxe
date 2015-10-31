@@ -177,6 +177,7 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 						$postPhotos[] = site_url($download); 
 					}
 				}
+				$value[$va] = '';
 			}
 			
 			// mapping csv.options as vehicle.features
