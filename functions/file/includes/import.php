@@ -157,7 +157,7 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 		$downloaded = array();
 		$limit = 1;
 		foreach($importRecords as $key=>$value){
-			//if ($limit > 1) continue; else $limit++;
+			//if ($limit > 4) continue; else $limit++;
 			
 			// trim attributes name 
 			foreach ($value as $tr => $im) {
@@ -202,4 +202,4 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 <p><?php _e('File','language');?> <strong><?php print $_POST['file-name']; ?></strong><?php _e(' has successfully imported ','language');?><strong><?php echo ($listing_totals['completed']>0?$listing_totals['completed']:'0'); ?></strong><?php _e(' listings as ','language');?><strong><?php _e('pending','language');?></strong><?php _e(' status under Inventory.','language');?><br>
 <?php if($listing_totals['skipped']>0){ ?><?php _e('There were','language');?> <strong><?php echo $listing_totals['skipped']; ?></strong><?php _e(' listings that were skipped because they already exist from a previous import.','language');?><br><?php } ?>
 <br><?php _e('If you notice that some of your listings do not have photos attached it is because they were not found in the database.','language');?><br>
-<?php _e('Please click ','language');?><a href="<?php echo get_admin_url(); ?>edit.php?post_status=pending&post_type=gtcd"><?php _e('here','language');?></a><?php _e(' to see your imported listings.','language');?></p>
+<?php _e('Please click ','language');?><a href="<?php echo get_admin_url(); ?>edit.php?post_status=publish&post_type=gtcd"><?php _e('here','language');?></a><?php _e(' to see your imported listings.','language');?></p>

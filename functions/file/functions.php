@@ -110,7 +110,7 @@ function gtcdi_import_records($post_types){
 			'post_title' => $value['title'],
 			'post_name' => sanitize_title( $value['title'], '' ),
 			'post_content' => '',
-			'post_status' => 'pending',
+			'post_status' => 'publish',
 			'post_author' => 1,
 			'post_type' => 'gtcd',
 		);
