@@ -172,6 +172,7 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 				$img = explode(',', $lue);
 				foreach ($img as $i => $mg) {
 					$download = trim($mg);
+					if (strlen($download) < 1) continue;
 					if (ftp_get($conn_id, get_home_path() . $download, $download, FTP_BINARY)) {
 						$downloaded[] = get_home_path() . $download;
 						$postPhotos[] = site_url($download); 
