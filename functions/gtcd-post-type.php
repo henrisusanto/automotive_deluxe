@@ -83,7 +83,8 @@ function gtcd_custom_columns($column)
 				$symbols = get_option('gorilla_symbols');
 				if(empty($fields['price']))
 				{ 
-					$fields['price'];
+					if (!isset($fields['price'])) 0;
+					else $fields['price'];
 				} 
 				
 				if(empty($symbols['currency'])) 
