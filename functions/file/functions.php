@@ -140,6 +140,9 @@ function gtcdi_import_records($post_types){
 			$arr_insert['meta']['mod1'] = $mod1;
 			$arr_insert['meta']['mod2'] = $mod2;
 			$arr_insert['meta']['mod3'] = $mod3;
+
+			if (intval(trim($post_meta['_price'])) == 0) $arr_insert['post_type']['post_status'] = 'pending';
+
 		}
 		
 		//add taxonomies	
