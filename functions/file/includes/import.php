@@ -154,11 +154,10 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 		$post_types = array();
 		$conn_id = ftp_connect('ftp1.trader.com');
 		ftp_login($conn_id, 'ONCE_FusionAS', ')15ueODb[n');
+		$remote_files = ftp_nlist($conn_id, '/');
 		$downloaded = array();
-		$limit = 1;
+		$listing_totals = array('skipped' => 0, 'completed' => 0);
 		foreach($importRecords as $key=>$value){
-			//if ($limit > 4) continue; else $limit++;
-			
 			// trim attributes name 
 			foreach ($value as $tr => $im) {
 				unset($value[$tr]);
@@ -172,7 +171,7 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 				$img = explode(',', $lue);
 				foreach ($img as $i => $mg) {
 					$download = trim($mg);
-					if (strlen($download) < 1) continue;
+					if (strlen($download) < 1 || !in_array($download, $remote_files)) continue;
 					if (ftp_get($conn_id, get_home_path() . $download, $download, FTP_BINARY)) {
 						$downloaded[] = get_home_path() . $download;
 						$postPhotos[] = site_url($download); 
@@ -190,12 +189,9 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 			$post_types[$key]['photos'] = $postPhotos;//gtcd_map_photos($value, $post['mapPhoto']);// SAMPE SINI
 		}
 		ftp_close($conn_id);
-		//die(json_encode($importRecords[0]).json_encode($post_types));
 	}
 
-	$listing_totals = count($post_types) >0 ? gtcdi_import_records($post_types) : 0;
-	
-	//importing is completed, remove the uploaded file
+	$listing_totals = gtcdi_import_records($post_types);
 	@unlink(GTCDI_DIR . '/' . $importFile);
 	if (isset($downloaded)) foreach ($downloaded as $down => $loaded) @unlink(get_home_path() . $loaded); 
 }
