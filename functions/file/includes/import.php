@@ -28,7 +28,6 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 			$post_types[$key]['tax'] = gtcd_map_tax_fields($value,$_POST['mapTax']);
 			$post_types[$key]['photos'] = gtcd_map_photos($value, $_POST['mapPhoto']);
 		}
-		
 	}elseif($_POST['file-type']=='csv'){
 		
 		$importData = array();
@@ -171,7 +170,9 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 				$img = explode(',', $lue);
 				foreach ($img as $i => $mg) {
 					$download = trim($mg);
-					if (strlen($download) < 1 || !in_array($download, $remote_files)) continue;
+					if (strlen($download) < 1) continue;
+					if (!in_array("/$download", $remote_files)) continue;
+					if (file_exists(get_home_path() . $download)) continue;
 					if (ftp_get($conn_id, get_home_path() . $download, $download, FTP_BINARY)) {
 						$downloaded[] = get_home_path() . $download;
 						$postPhotos[] = site_url($download); 
