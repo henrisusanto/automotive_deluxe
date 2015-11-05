@@ -102,7 +102,7 @@ function gtcdi_import_records($post_types){
 	$new_post_types = array();
 	
 	//loop through and put meta field with custom field		
-	foreach($post_types as $key=>$value){		
+	foreach($post_types as $key=>$value){
 		//create insert array to import all items at the end of each loop
 		$arr_insert = array();
 		
@@ -143,7 +143,7 @@ function gtcdi_import_records($post_types){
 
 			if (intval(trim($post_meta['_price'])) == 0) $arr_insert['post_type']['post_status'] = 'pending';
 
-		}
+		}else continue;
 		
 		//add taxonomies	
 		if(count($value['tax'])>0){
