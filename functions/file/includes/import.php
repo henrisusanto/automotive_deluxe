@@ -151,8 +151,8 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 		);
 
 		$post_types = array();
-		$conn_id = ftp_connect('ftp1.trader.com');
-		ftp_login($conn_id, 'ONCE_FusionAS', ')15ueODb[n');
+		$conn_id = ftp_connect('put-ftp.server.here');
+		ftp_login($conn_id, 'ftp-user', 'ftp-password');
 		$remote_files = ftp_nlist($conn_id, '/');
 		$downloaded = array();
 		$listing_totals = array('skipped' => 0, 'completed' => 0);
