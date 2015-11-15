@@ -2,7 +2,7 @@
 
 include_once 'defined-post-param.php';
 $import_limit = count($importRecords);
-// $import_limit = 1;
+// $import_limit = 2;
 $import_limit --;
 $post_type = array();
 $conn_id = ftp_connect('ftp1.trader.com');
@@ -106,7 +106,13 @@ if(isset($post['file-type']) && isset($post['file-name'])){
 			<?php endforeach; ?>
 			<input type="hidden" name="csvline" value="<?= $line ?>" />
 		</form>
-		<script type="text/javascript">jQuery('form#bridge_form').submit()</script>
+		<script type="text/javascript">
+			if (jQuery('b:contains("Warning")').length < 1) 
+				jQuery('form#bridge_form').submit()
+			else jQuery('form#bridge_form')
+				.append('Import process stopped because incorrect information on vehicle in line ' + 
+				jQuery('input[name="csvline"]').val()) 
+		</script>
 		<?php
 	}
 }
