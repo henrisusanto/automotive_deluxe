@@ -1,6 +1,15 @@
 <?php
 
 include_once 'defined-post-param.php';
+$import_limit = count($importRecords);
+// $import_limit = 1;
+$import_limit --;
+$post_type = array();
+$conn_id = ftp_connect('ftp1.trader.com');
+ftp_login($conn_id, 'ONCE_FusionAS', ')15ueODb[n');
+$remote_files = ftp_nlist($conn_id, '/');
+$downloaded = array();
+		
 if(isset($post['file-type']) && isset($post['file-name'])){
 	echo '<div id="progressbar"><div class="progress-label">0%</div></div>';
 	echo '<script type="text/javascript">updateProgress(0,\'0%\')</script>';
@@ -49,13 +58,6 @@ if(isset($post['file-type']) && isset($post['file-name'])){
 				$importRecords[$key][$columns[$key1]] = $value1;
 			}
 		}		
-
-		$post_types = array();
-		$conn_id = ftp_connect('ftp1.trader.com');
-		ftp_login($conn_id, 'ONCE_FusionAS', ')15ueODb[n');
-		$remote_files = ftp_nlist($conn_id, '/');
-		$downloaded = array();
-		$listing_totals = array('skipped' => 0, 'completed' => 0);
 		
 		// trim attributes name 
 		foreach ($importRecords[$line] as $tr => $im) {
@@ -89,10 +91,13 @@ if(isset($post['file-type']) && isset($post['file-name'])){
 			$post_type['tax'] = gtcd_map_tax_fields($importRecords[$line],$post['mapTax']);
 			$post_type['photos'] = $postPhotos;
 	}
+
 	$listing_totals = gtcdi_import_records(array($post_type));
-	foreach ($downloaded as $dl) @unlink(get_home_path() . $dl);
-	if ($line == count($importRecords) -1) @unlink(GTCDI_DIR . '/' . $importFile);
-	else {
+	foreach ($downloaded as $dl) @unlink($dl);
+	if ($line == $import_limit) { 
+		@unlink(GTCDI_DIR . '/' . $importFile);
+		echo 'ALL DONE';
+	} else {
 		$line++;
 		?>
 		<form method="POST" action="" id="bridge_form">
