@@ -1,5 +1,7 @@
 <?php
-if(isset($_POST['file-type']) && isset($_POST['file-name'])){
+
+include_once 'defined-post-param.php';
+if(isset($post['file-type']) && isset($post['file-name'])){
 	echo '<div id="progressbar"><div class="progress-label">0%</div></div>';
 	echo '<script type="text/javascript">updateProgress(0,\'0%\')</script>';
 	ob_flush();
@@ -7,9 +9,10 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 	sleep(1);
 	
 	//get the file to loop through the records
-	$importFile = $_POST['file-name'];
+	$post['file-name'] = $_POST['file-name'];
+	$importFile = $post['file-name'];
 	
-	if($_POST['file-type']=='xml'){
+	if($post['file-type']=='xml'){
 		
 		$fileData = file_get_contents(GTCDI_DIR . '/' . $importFile);
 		
@@ -17,19 +20,19 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 		$dom->loadXML($fileData);
 		$xmlArray = gtcd_xml_to_array($dom);
 		
-		$xmlRecords = gtcd_xml_records($xmlArray, $_POST['file-path']);
-		$importFields = gtcd_get_xpath($xmlArray,$_POST['file-path']);
+		$xmlRecords = gtcd_xml_records($xmlArray, $post['file-path']);
+		$importFields = gtcd_get_xpath($xmlArray,$post['file-path']);
 		$importFields = gtcd_get_keys($importFields);
 		
 		$post_types = array();
 		foreach($xmlRecords as $key=>$value){
-			$post_types[$key]['title'] = $value[$_POST['mapTitle']];
-			$post_types[$key]['meta'] = gtcd_map_meta_fields($value,$_POST['mapMeta']);
-			$post_types[$key]['tax'] = gtcd_map_tax_fields($value,$_POST['mapTax']);
-			$post_types[$key]['photos'] = gtcd_map_photos($value, $_POST['mapPhoto']);
+			$post_types[$key]['title'] = $value[$post['mapTitle']];
+			$post_types[$key]['meta'] = gtcd_map_meta_fields($value,$post['mapMeta']);
+			$post_types[$key]['tax'] = gtcd_map_tax_fields($value,$post['mapTax']);
+			$post_types[$key]['photos'] = gtcd_map_photos($value, $post['mapPhoto']);
 		}
-	}elseif($_POST['file-type']=='csv'){
-		
+	}elseif($post['file-type']=='csv'){
+		$line = isset($_POST['csvline'])?$_POST['csvline']:0;
 		$importData = array();
 		if (($handle = fopen(GTCDI_DIR . '/' . $importFile, 'r')) !== FALSE) {
 			while (($data = fgetcsv($handle, 1000, '|')) !== FALSE) {
@@ -46,155 +49,61 @@ if(isset($_POST['file-type']) && isset($_POST['file-name'])){
 				$importRecords[$key][$columns[$key1]] = $value1;
 			}
 		}		
-		
-		$post = Array
-		(
-    "file-name" => "convertcsv.csv",
-    "file-type" => "csv",
-    "file-path" => "",
-    "step" => "import",
-    "mapTitle" => "Model",
-    "mapMeta" => Array
-        (
-            "_statustag" => "",
-            "_featured" => "",
-            "_topdeal" => "",
-            "_year" => "Year",
-            "_price" => "Price", 
-            "_miles" => "KMS",
-            "_vehicletype" => "Category",
-            "_stock" => "StockNumber",
-            "_drive" => "Drive",
-            "_transmission" => "Transmission",
-            "_exterior" => "Exterior Color",
-            "_interior" => " Interior Color",
-            "_EPA_CITY_MPG" => "",
-            "_EPA_HIGHWAY_MPG" => "",
-            "_vin" => "Vin",
-            "_carfax" => "",
-            "_enginesize" => "Engine Size",
-            "_cylinders" => "Cylinder",
-            "_horsepower" => "",
-            "_FRONT_AIR_CONDITIONING" => "",
-            "_FRONT_BRAKE_TYPE" => "",
-            "_ANTILOCK_BRAKING_SYSTEM" => "",
-            "_BRAKING_ASSIST" => "",
-            "_REAR_BRAKE_DIAMETER" => "",
-            "_AUTO_DIMMING_REARVIEW_MIRROR" => "",
-            "_RUNNING_BOARDS" => "",
-            "_ROOF_RACK" => "",
-            "_POWER_DOOR_LOCKS" => "",
-            "_ANTI_THEFT_ALARM_SYSTEM" => "",
-            "_CRUISE_CONTROL" => "",
-            "_1ST_ROW_VANITY_MIRRORS" => "",
-            "_HEATED_DRIVER_SIDE_MIRROR" => "",
-            "_HEATED_PASSENGER_SIDE_MIRROR" => "",
-            "_TRAILER_WIRING" => "",
-            "_TRAILER_HITCH" => "",
-            "_CRUISE_CONTROLS_ON_STEERING_WHEEL" => "",
-            "_AUDIO_CONTROLS_ON_STEERING_WHEEL" => "",
-            "_FOLDING_2ND_ROW" => "",
-            "_1ST_ROW_POWER_OUTLET" => "",
-            "_CARGO_AREA_POWER_OUTLET" => "",
-            "_INDEPENDENT_SUSPENSION" => "",
-            "_REAR_SUSPENSION_TYPE" => "",
-            "_FRONT_SUSPENSION_TYPE" => "",
-            "_MAX_CARGO_CAPACITY" => "",
-            "_PASSENGER_AIRBAG" => "",
-            "_enginetype" => "",
-            "_fuelcapacity" => "",
-            "_wheelbase" => "",
-            "_overalllength" => "",
-            "_width" => "",
-            "_height" => "",
-            "_legroom" => "",
-            "_headroom" => "",
-            "_seatingcapacity" => "Passenger",
-            "_tires" => "",
-            "_comment_area" => "AdDescription"
-        ),
-
-		    "mapTax" => Array
-		        (
-		            "category" => Array
-		                (
-		                    "field" => "Category",
-		                    "separator" => ""
-		                ),
-		
-		            "makemodel" => Array
-		                (
-		                    "field" => "Model",
-		                    "separator" => ""
-		                ),
-		
-		            "location" => Array
-		                (
-		                    "field" => "",
-		                    "separator" => ""
-		                ),
-		
-		            "features" => Array
-		                (
-		                    "field" => "",
-		                    "separator" => ""
-		                )
-		
-		        ),
-		
-		    "mapPhoto" => Array
-		        (
-		            "field" => "OtherPhoto",
-		            "separator" => ""
-		        )
-		
-		);
 
 		$post_types = array();
-		$conn_id = ftp_connect('put-ftp.server.here');
-		ftp_login($conn_id, 'ftp-user', 'ftp-password');
+		$conn_id = ftp_connect('ftp1.trader.com');
+		ftp_login($conn_id, 'ONCE_FusionAS', ')15ueODb[n');
 		$remote_files = ftp_nlist($conn_id, '/');
 		$downloaded = array();
 		$listing_totals = array('skipped' => 0, 'completed' => 0);
-		foreach($importRecords as $key=>$value){
-			// trim attributes name 
-			foreach ($value as $tr => $im) {
-				unset($value[$tr]);
-				$value[trim($tr)] = $im;
-			}
+		
+		// trim attributes name 
+		foreach ($importRecords[$line] as $tr => $im) {
+			unset($importRecords[$line][$tr]);
+			$importRecords[$line][trim($tr)] = $im;
+		}
 			
-			// ftp download csv.photos into vehicle.photos
-			$postPhotos = array();
-			foreach ($value as $va => $lue) {
-				if (!strpos($lue, '.jpg')) continue;
-				$img = explode(',', $lue);
-				foreach ($img as $i => $mg) {
-					$download = trim($mg);
-					if (strlen($download) < 1) continue;
-					if (!in_array("/$download", $remote_files)) continue;
-					if (file_exists(get_home_path() . $download)) continue;
-					if (ftp_get($conn_id, get_home_path() . $download, $download, FTP_BINARY)) {
+		// ftp download csv.photos into vehicle.photos
+		$postPhotos = array();
+		foreach ($importRecords[$line] as $va => $lue) {
+			if (!strpos($lue, '.jpg')) continue;
+			$img = explode(',', $lue);
+			foreach ($img as $i => $mg) {
+				$download = trim($mg);
+				if (strlen($download) < 1) continue;
+				if (!in_array("/$download", $remote_files)) continue;
+				if (file_exists(get_home_path() . $download)) continue;
+				if (ftp_get($conn_id, get_home_path() . $download, $download, FTP_BINARY)) {
 						$downloaded[] = get_home_path() . $download;
 						$postPhotos[] = site_url($download); 
 					}
 				}
-				$value[$va] = '';
+				$importRecords[$line][$va] = '';
 			}
+			ftp_close($conn_id);
 			
 			// mapping csv.options as vehicle.features
 			$post['mapTax']['features'] = Array("field" => "Options","separator" => ",");
-			
-			$post_types[$key]['title'] = $value['Make'] . ' ' . $value['Model'];
-			$post_types[$key]['meta'] = gtcd_map_meta_fields($value,$post['mapMeta']);
-			$post_types[$key]['tax'] = gtcd_map_tax_fields($value,$post['mapTax']);
-			$post_types[$key]['photos'] = $postPhotos;//gtcd_map_photos($value, $post['mapPhoto']);// SAMPE SINI
-		}
-		ftp_close($conn_id);
+			$post_type['title'] = $importRecords[$line]['Make'] . ' ' . $importRecords[$line]['Model'];
+			$post_type['meta'] = gtcd_map_meta_fields($importRecords[$line],$post['mapMeta']);
+			$post_type['tax'] = gtcd_map_tax_fields($importRecords[$line],$post['mapTax']);
+			$post_type['photos'] = $postPhotos;
 	}
-
-	$listing_totals = gtcdi_import_records($post_types);
-	@unlink(GTCDI_DIR . '/' . $importFile);
-	if (isset($downloaded)) foreach ($downloaded as $down => $loaded) @unlink(get_home_path() . $loaded); 
+	$listing_totals = gtcdi_import_records(array($post_type));
+	foreach ($downloaded as $dl) @unlink(get_home_path() . $dl);
+	if ($line == count($importRecords) -1) @unlink(GTCDI_DIR . '/' . $importFile);
+	else {
+		$line++;
+		?>
+		<form method="POST" action="" id="bridge_form">
+			<?php foreach($post as $name => $value): ?>
+				<input type="hidden" name="<?= $name ?>" value="<?= $value ?>" />
+			<?php endforeach; ?>
+			<input type="hidden" name="csvline" value="<?= $line ?>" />
+		</form>
+		<script type="text/javascript">jQuery('form#bridge_form').submit()</script>
+		<?php
+	}
 }
 ?>
 <br><br>
