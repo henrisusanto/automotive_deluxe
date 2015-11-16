@@ -42,7 +42,7 @@
 	                        <p><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php echo $post->post_title ?>"><?php echo $post->post_title ?></a></p>
 	                        <p><strong><?php if (isset( $fields['miles'])){ echo $fields['miles'].' '.$options['milestext'];}else {  echo ''; };?></strong></p>
 	                        <p><?php if (isset( $fields['vehicletype'])){ echo $fields['vehicletype'].' | ';}else {  echo ''; };?> <?php if (isset( $fields['transmission'])){ echo $fields['transmission'];}else {  echo ''; };?><br/><?php if (isset( $options2['cylinders'])){ echo $options2['cylinders'].' '.$options['cylinderstext'].' | ';}else {  echo ''; };?><?php if (isset( $fields['interior'])){ echo $fields['interior'].' | ';}else {  echo ''; };?><?php if (isset( $fields['epamileage'])){ echo $fields['epamileage'];}else {  echo ''; };?></p>
-	                        <p class="result-price"><?php include(TEMPLATEPATH."/functions/var/default-box-one.php"); if (is_numeric( $fields['price'])){ echo $symbols['currency']; echo number_format($fields['price']) else {   echo number_format($fields['price']; } ?></p>
+	                        <p class="result-price"><?php include(TEMPLATEPATH."/functions/var/default-box-one.php"); if (is_numeric( $fields['price'])){ echo $symbols['currency']; echo number_format($fields['price']); } else {   echo number_format($fields['price']); } ?></p>
               
                         </div> <!--   result detail wrapper ends -->
  </div> <!-- result car ends --> 
