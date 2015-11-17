@@ -60,7 +60,7 @@ blockquote, q {
 
     float: right;
 	font: 14px 'PlayRegular', Arial, Helvetica, "Trebuchet MS", sans-serif;
-	background: #a11f1f!important;
+	background: #003155!important;
 	color:#fafafa;
     display: block;
     cursor: pointer;
@@ -155,7 +155,7 @@ a {
 }
 
 a:active, a:visited {
-    color: #af2c2e;
+    color: #007feb;
 }
 
 a:hover {
@@ -245,13 +245,13 @@ min-height:70px;
 }
 
 .nav-panel {
-  background: #000; 
-background: -moz-linear-gradient(top, #464c4c 0%, #464c4c 50%, #0a0e0a 51%, #0a0809 100%); 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#464c4c), color-stop(50%,#464c4c), color-stop(51%,#0a0e0a), color-stop(100%,#0a0809)); 
-background: -webkit-linear-gradient(top, #464c4c 0%,#464c4c 50%,#0a0e0a 51%,#0a0809 100%);
-background: -o-linear-gradient(top, #464c4c 0%,#464c4c 50%,#0a0e0a 51%,#0a0809 100%); 
-background: -ms-linear-gradient(top, #464c4c 0%,#464c4c 50%,#0a0e0a 51%,#0a0809 100%); 
-background: linear-gradient(to bottom, #464c4c 0%,#464c4c 50%,#0a0e0a 51%,#0a0809 100%);
+  background: #001b33; 
+background: -moz-linear-gradient(top, #005ba8 0%, #004885 50%, #003359 51%, #001b33 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#005ba8), color-stop(50%,#004885), color-stop(51%,#003359), color-stop(100%,#001b33)); 
+background: -webkit-linear-gradient(top, #005ba8 0%,#004885 50%,#003359 51%,#001b33 100%);
+background: -o-linear-gradient(top, #005ba8 0%,#004885 50%,#003359 51%,#001b33 100%); 
+background: -ms-linear-gradient(top, #005ba8 0%,#004885 50%,#003359 51%,#001b33 100%); 
+background: linear-gradient(to bottom, #005ba8 0%,#004885 50%,#003359 51%,#001b33 100%);
     width: 980px;
     height: 39px;
     line-height: 39px;
@@ -339,7 +339,7 @@ background: linear-gradient(to bottom, #464c4c 0%,#464c4c 50%,#0a0e0a 51%,#0a080
 
     padding-bottom: 6px;
     color: #fff;
-    background: #b12a2a;
+    background: #003155;
      -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -433,7 +433,7 @@ background: linear-gradient(to bottom, #464c4c 0%,#464c4c 50%,#0a0e0a 51%,#0a080
 }
 
 .main-nav li.current-menu-item, .main-nav li:hover {
-	background:#b12a2a;
+	background:#003155;
 }
 
 .main-nav li.current-menu-item a, .main-nav li:hover a {
@@ -495,7 +495,7 @@ background: linear-gradient(to bottom, #464c4c 0%,#464c4c 50%,#0a0e0a 51%,#0a080
 
 .main-nav li:hover ul li a:hover {
     color: #fff;
-    background: #af2c2e;
+    background: #007feb;
 }
 
 .main-nav li a {
@@ -722,7 +722,7 @@ margin: 6px 7px 0 0px;
    opacity: 0.6;
 }
 .tricol-product-list-similar li:hover .detail-btn {
-    background: #a11f1f;
+    background: #003155;
     display: block;
     height: 24px;
     width: 226px;
@@ -775,7 +775,7 @@ margin: 6px 7px 0 0px;
 
 
 .tricol-product-list-similar li .detail-btn:hover {
-    background: #a11f1f;
+    background: #003155;
     display: block;
     height: 24px;
     width: 226px;
@@ -842,7 +842,7 @@ margin: 6px 7px 0 0px;
    opacity: 0.6;
 }
 .tricol-product-list li.new-arrivals-list:hover .detail-btn {
-    background: #a11f1f;
+    background: #003155;
     display: block;
     height: 24px;
     width: 226px;
@@ -891,7 +891,7 @@ margin: 6px 7px 0 0px;
 
 
 .tricol-product-list li.new-arrivals-list .detail-btn:hover {
-    background: #a11f1f;
+    background: #003155;
     display: block;
     height: 24px;
     width: 226px;
@@ -1193,7 +1193,7 @@ margin: 6px 7px 0 0px;
 }
 
 .new-arrivals-list:hover .detail-btn {
-   background: #a11f1f;
+   background: #003155;
     display: block;
     height: 24px;
     width: 226px;
@@ -1224,7 +1224,7 @@ margin: 6px 7px 0 0px;
 
 
 .tricol-product-list li .detail-btn:hover {
-    background: #a11f1f;
+    background: #003155;
     display: block;
     height: 24px;
     width: 226px;
@@ -1296,12 +1296,12 @@ margin: 6px 7px 0 0px;
 }
 
 .find-nav li a:hover {
-    background: #ff0000;
+    background: #0082ee;
     color: #fff;
 }
 
 .find-nav li a.active {
-    background: #b12a2a;
+    background: #003155;
     color: #fff;
 }
 
@@ -1456,7 +1456,7 @@ ul.cars-list.list-three {
 .right-white-block h3 {
     padding-bottom: 6px;
     color: #fff;
-    background: #b12a2a;
+    background: #003155;
      -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -1611,7 +1611,7 @@ ul.side-nav h3 {
 }
 
 .bottom-bar p a {
-    color: #ff0000;
+    color: #0082ee;
     line-height: 39px;
     margin: 0px;
 }
@@ -1627,7 +1627,7 @@ ul.side-nav h3 {
 }
 
 .searchBreadcrumbs a:hover {
-    color: #af2c2e;
+    color: #007feb;
     font-size: 13px;
 }
 /*Detail page*/
@@ -2040,7 +2040,7 @@ textarea {
 .contact-seller-block h3 {
     padding-bottom: 6px;
     color: #fff;
-    background: #b12a2a;
+    background: #003155;
      -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -2202,7 +2202,7 @@ textarea {
 .seller-send-btn {
    
 	font: 14px 'PlayRegular', Arial, Helvetica, "Trebuchet MS", sans-serif;
-	background: #a11f1f!important;
+	background: #003155!important;
 	color:#fafafa;
     display: block;
     cursor: pointer;
@@ -2244,7 +2244,7 @@ textarea {
 .loan-calculator h3 {
     padding-bottom: 6px;
     color: #fff;
-    background: #b12a2a;
+    background: #003155;
      -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -2428,7 +2428,7 @@ textarea {
 }
 
 .searchSort a {
-    color: #ff0000;
+    color: #0082ee;
 }
 
 .searchSort {
@@ -2517,13 +2517,13 @@ textarea {
 }
 
 .result-car .result-detail-wrapper .result-price {
-    color: #ff0000!important;
+    color: #0082ee!important;
     font-weight: bold;
     font: 16px 'PlayBold', Arial, Helvetica, "Trebuchet MS", sans-serif;
 }
 
 .price-style {
-    color: #ff0000!important;
+    color: #0082ee!important;
     font-weight: bold;
     font: 16px 'PlayBold', Arial, Helvetica, "Trebuchet MS", sans-serif;
     padding:0 0 8px 6px;
@@ -2536,7 +2536,7 @@ textarea {
 
 
 .price-style-deals {
-    color: #ff0000!important;
+    color: #0082ee!important;
     font: 12px 'PlayRegular', Arial, Helvetica, "Trebuchet MS", sans-serif;
 }
 
@@ -2558,7 +2558,7 @@ textarea {
 .ie8 .right-white-block h3 {
     padding-bottom: 3px;
     color: #fff;
-    background: #b12a2a;
+    background: #003155;
     text-align:center;
     padding-top: 5px;
     font-size: 16px;
@@ -2567,7 +2567,7 @@ textarea {
 
 
 .ie8 .price-style-deals {
-    color: #ff0000!important;
+    color: #0082ee!important;
     font: 13px 'PlayBold', Arial, Helvetica, "Trebuchet MS", sans-serif;
 }
 
@@ -2608,13 +2608,13 @@ textarea {
 .bottom-pagination a.current {
     color: #fff !important;
     padding: 1px 8px;
-    background: red;
+    background: #003155;
 }
 
 .bottom-pagination a:hover {
     color: #fff !important;
      padding: 1px 8px;
-    background: red;
+    background: #007feb;
 }
 
 .bottom-pagination .paging {
@@ -2651,7 +2651,7 @@ textarea {
     color: #fff;
     line-height: 38px;
     margin: 0 0 16px 0;
-    background: #b12a2a;
+    background: #003155;
     padding: 0 0 0 10px;
      -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -2701,7 +2701,7 @@ textarea {
 
 .learn-more {
     font: 14px 'PlayRegular', Arial, Helvetica, "Trebuchet MS", sans-serif;
-	background: #a11f1f!important;
+	background: #003155!important;
      -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
@@ -2781,7 +2781,7 @@ textarea {
 p.error {
     text-align: center;
     font-weight: bold;
-    color: #ff0000;
+    color: #0082ee;
 }
 
 span.error {
@@ -3059,7 +3059,7 @@ h3.search-title {
     width: 200px;
     height: 46px;
 	font: 14px 'PlayRegular', Arial, Helvetica, "Trebuchet MS", sans-serif;
-	background: #a11f1f!important;
+	background: #003155!important;
 	color:#fafafa;
     display: block;
     -moz-border-radius: 2px;
@@ -3279,7 +3279,7 @@ li.recentcomments {
 .pagination li a {
     width: 7px;
     height: 7px;
-    background:#b12a2a;
+    background:#003155;
     -webkit-border-radius: 1px;
     border-radius: 1px;
     float: left;
@@ -3291,7 +3291,7 @@ li.recentcomments {
 }
 
 .price_slider {
-    color: #ff0000;
+    color: #0082ee;
     font-weight: bold;
 }
 .cpsAjaxLoaderResults {
@@ -3429,7 +3429,7 @@ form#searchform input.field {
 form#searchform input.search-button{
 
 font: 14px 'PlayRegular', Arial, Helvetica, "Trebuchet MS", sans-serif;
-	background: #a11f1f!important;
+	background: #003155!important;
 	color:#fafafa;
     display: block;
     cursor: pointer;
@@ -3654,7 +3654,7 @@ background:rgb(0, 0, 0);
     width: 200px;
     height: 46px;
 	font: 14px 'PlayRegular', Arial, Helvetica, "Trebuchet MS", sans-serif;
-	background: #a11f1f!important;
+	background: #003155!important;
 	color:#fafafa;
     display: block;
     -moz-border-radius: 2px;
@@ -3723,7 +3723,7 @@ background:rgb(0, 0, 0);
 }
 
 #pro_form .pro_fields a:hover {
-    color: #af2c2e;
+    color: #007feb;
 }
 
 #pro_form li.drop_single_tax {
@@ -3961,9 +3961,9 @@ background:rgb(0, 0, 0);
 	margin: 10px 10px 0 0;
     width: 140px;
     float: right;
-    background: #a11f1f!important;
+    background: #003155!important;
 	color:#fafafa;
-	border: 1px solid #a11f1f;
+	border: 1px solid #003155;
     display: block;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
@@ -3973,7 +3973,7 @@ background:rgb(0, 0, 0);
 .formsec .send-contact:hover {
     opacity: 0.7;
     cursor: pointer;
-    border: 1px solid #a11f1f;
+    border: 1px solid #003155;
     box-shadow: none;
     -moz-box-shadow:none;
     -webkit-box-shadow:none;
