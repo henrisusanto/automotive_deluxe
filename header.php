@@ -37,10 +37,15 @@
 <!--[if IE 9 ]>    <body class="ie9" <?php body_class(); ?>> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <body <?php body_class(); ?>>
-<!--<![endif]--> 
+<!--<![endif]-->
+<div class="fusion_tel">
+ <h1 style="color:white;top:67px;position:absolute;right:210px;font-size:24px;">Toll Free: 1 (866) 979-7315  •  Local: (519) 682-2229</h1></div> 
+</div>
 <div class="row show-for-small whiteBack">
  <li class="name">
-          <div> <a href="<?php bloginfo('url'); ?>"> <img class="logo" src="<?php header_image(); ?>" alt="<?php bloginfo('name'); ?>" /> </a> </div>
+          <div>
+<a href="<?php bloginfo('url'); ?>"> <img class="logo" src="<?php header_image(); ?>" alt="<?php bloginfo('name'); ?>" /> </a> 
+</div>
         </li>
   <div class="large-12.columns">
     <nav class="top-bar">

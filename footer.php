@@ -6,8 +6,8 @@
 	</div><!--end of footer-wrapper div-->
 	<div class="bottom-bar-wrapper hide-for-small">
 	<div class="bottom-bar">
-		<p><?php _e('Automotive by ','language');?>
-			<a href="http://gorillathemes.com"><?php echo('Gorilla Themes');?></a> - <?php _e('Powered by ','language');?>
+		<p><?php _e('Website by ','language');?>
+			<a href="http://maverickmultimedia.com"><?php echo('Maverick Multimedia');?></a> - <?php _e('Powered by ','language');?>
 			<a href="http://wordpress.org"><?php _e('WordPress','language');?></a>
 		</p>
 	</div>
@@ -15,8 +15,8 @@
 <footer id="footerMob" class="row show-for-small"> 
             <div style="width:100%; height:48px;">
             <div class="twelve columns">            
-                <div class="footer_links"><?php _e('Automotive by','language');?>
-					<a href="http://gorillathemes.com" class="footer-gorilla-link"></a> - <?php _e('Powered by','language');?>
+                <div class="footer_links"><?php _e('Website by','language');?>
+					<a href="http://maverickmultimedia.com" class="footer-gorilla-link"></a> - <?php _e('Powered by','language');?>
 					<a href="http://wordpress.org" class="footer-wp-link"></a>
 				</div>             
             </div>                       

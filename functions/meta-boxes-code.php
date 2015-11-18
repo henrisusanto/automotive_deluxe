@@ -80,13 +80,13 @@ $meta_boxes = array(
 	  					 "3" => $options['vehicle_type_3'],
 	  					 "4" => $options['vehicle-type_4'],
 	  					 "5" => $options['vehicle_type_5'],
-	  					 "6" => $options['vehicle_type_6'],
+	  					 /*"6" => $options['vehicle_type_6'],
 	  					 "7" => $options['vehicle_type_7'],  
 	  					 "8" => $options['vehicle_type_8'],
 	  					 "9" => $options['vehicle_type_9'],
 	  					 "10" => $options['vehicle-type_10'],
 	  					 "11" => $options['vehicle_type_11'],
-	  					 "12" => $options['vehicle_type_12'],    
+	  					 "12" => $options['vehicle_type_12'],*/    
 	  					 )
 	),  
 "stock" => array(
