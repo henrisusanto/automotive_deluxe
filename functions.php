@@ -186,15 +186,10 @@ function my_get_theme_options() {
 		'transmission_4'     	=> __('Other','language'),
 		'vehicle_type_text'     	=> __('Vehicle Type','language'),
 		
-		'vehicle_type_1'     	=> __('Car','language'),
-		'vehicle_type_2'     	=> __('Minivan/Passenger Van','language'),
-		'vehicle_type_3'     	=> __('Sport Utility','language'),
-		'vehicle_type_4'     	=> __('Truck','language'),
-		'vehicle_type_5'     	=> __('Sport Utility_phil','language'),
-		// EDIT ALSO FUNCTIONS/META-BOX-CODE.PHP LINE 69
-		// EDIT ALSO SELECT * FROM `fa_options` WHERE option_name = 'my_theme_options'
-		
-		/*'vehicle_type_1'     	=> __('Convertibles','language'),
+		/* 
+		 EDIT ALSO FUNCTIONS/META-BOX-CODE.PHP LINE 69
+		 EDIT ALSO SELECT * FROM `fa_options` WHERE option_name = 'my_theme_options'
+		'vehicle_type_1'     	=> __('Convertibles','language'),
 		'vehicle_type_2'     	=> __('Crossovers','language'),
 		'vehicle_type_3'     	=> __('Luxury Vehicles','language'),
 		'vehicle_type_4'     	=> __('Hybrids','language'),
@@ -205,9 +200,14 @@ function my_get_theme_options() {
 		'vehicle_type_9'     	=> __('Sport Utilities','language'),
 		'vehicle_type_10'     	=> __('Sports Cars','language'),
 		'vehicle_type_11'     	=> __('Wagons','language'),
-		'vehicle_type_12'     	=> __('4WD-AWD','language'),*/
+		'vehicle_type_12'     	=> __('4WD-AWD','language'),
+		 */
 	);
- 
+	
+	global $wpdb;
+	$vehicle_types = $wpdb->get_results("SELECT DISTINCT meta_value FROM {$wpdb->postmeta} WHERE meta_key = '_vehicletype'");
+	foreach ($vehicle_types as $number => $type) $defaults["vehicle_type_$number"] = __($type->meta_value,'language');
+			 
 	$defaults = apply_filters( 'my_default_theme_options', $defaults );
 	$options = wp_parse_args( $saved, $defaults );
 	$options = array_intersect_key( $options, $defaults );

@@ -75,19 +75,20 @@ $meta_boxes = array(
 	  "rows" => "",
 	  "width" => "",
 	   "hide_in_search" => $options['vehicle_type_hide'],
-	  "options" => array("1" => $options['vehicle_type_1'],  
+	  /*"options" => array(
+	  					 "1" => $options['vehicle_type_1'],  
 	  					 "2" => $options['vehicle_type_2'],
 	  					 "3" => $options['vehicle_type_3'],
 	  					 "4" => $options['vehicle-type_4'],
 	  					 "5" => $options['vehicle_type_5'],
-	  					 /*"6" => $options['vehicle_type_6'],
+	  					 "6" => $options['vehicle_type_6'],
 	  					 "7" => $options['vehicle_type_7'],  
 	  					 "8" => $options['vehicle_type_8'],
 	  					 "9" => $options['vehicle_type_9'],
 	  					 "10" => $options['vehicle-type_10'],
 	  					 "11" => $options['vehicle_type_11'],
-	  					 "12" => $options['vehicle_type_12'],*/    
-	  					 )
+	  					 "12" => $options['vehicle_type_12'], 
+	  					 )*/
 	),  
 "stock" => array(
 	  "name" => "stock", 
@@ -194,6 +195,18 @@ $meta_boxes = array(
 	),
 	 
 		 );
+		 
+// $meta_boxes['vehicletype']['options'] = array();
+foreach ($options as $key => $value) {
+	if ($key === 'vehicle_type_hide') continue;
+	if ($key === 'vehicle_type_text') continue;
+	if (strpos($key, 'vehicle_type_') !== false) {
+		$index = count ($meta_boxes['vehicletype']['options']);
+		$index++;
+		$meta_boxes['vehicletype']['options']["$index"] = $value;
+	}
+}
+
 ?>
 <?php	
  $mod2 = "mod2";
